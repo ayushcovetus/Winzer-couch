@@ -1,0 +1,2608 @@
+<!DOCTYPE html>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+ -->
+<html>
+    <head>
+        <!--<meta charset="utf-8" />
+         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+         
+         <link rel="stylesheet" type="text/css" href="css/topcoat-mobile-light.min.css">
+         <link rel="stylesheet" type="text/css" href="css/index.css" />-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="format-detection" content="telephone=no" />
+            <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=device-dpi" />
+            
+            <link rel="stylesheet" type="text/css" href="css/index.css" />
+            <link rel="stylesheet" href="themes/eserv_theme.css"/>
+            <link rel="stylesheet" href="css/jquery.mobile.structure-1.3.1.min.css" />
+           <!-- <link href="css/jqm-docs.css" rel="stylesheet" media="screen">
+                <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+                 <script src="js/jquery-1.8.3.min.js"></script>
+                 <script src="jqm/jquery.mobile-1.2.1.min.js"></script>
+                 <link rel="stylesheet" type="text/css" href="jqm/jquery.mobile.theme-1.3.2.min.css" />-->
+           
+           
+          
+                <link href="css/bootstrap.css" rel="stylesheet">
+                    <style type="text/css">
+                        body {
+                            /* padding-bottom: 40px;*/
+                            /*   background-color:#0d83dd;*/
+                        }
+                        .sidebar-nav {
+                            padding: 9px 0;
+                        }
+                        @media (max-width: 980px) {
+                            /* Enable use of floated navbar text */
+                            .navbar-text.pull-right {
+                                float: right;
+                                padding-left: 5px;
+                                padding-right: 5px;
+                            }
+                        }
+                        </style>
+                    <!-----------accordin-------------->
+                    
+                    <style>
+                        .wrapper1 {
+                            margin-right: auto;
+                            margin-top: auto;
+                            margin-bottom: auto;
+                        }
+                    .wrapper1 > ul {
+                        margin: 0;
+                        padding: 0
+                    }
+                    .wrapper1 > ul > li {
+                        display: inline-block;
+                        padding-right: 12px;
+                        margin-right: 8px;
+                        border-right: 1px solid black;
+                        line-height: 12px;
+                    }
+                    .wrapper1 > ul > li a {
+                        text-decoration: none
+                    }
+                    .wrapper1 > ul > li a:hover {
+                        text-decoration: underline
+                    }
+                    
+                    #wrapper {
+                        position: absolute;
+                        z-index: 1;
+                        top:45px;
+                        left: 0;
+                        width: 100%;
+                        overflow: hidden;
+                    }
+                    
+                    #scroller {
+                        position: absolute;
+                        z-index: 1;
+                        -webkit-tap-highlight-color: rgba(0,0,0,0);
+                        width: 100%;
+                        -webkit-transform: translateZ(0);
+                        -moz-transform: translateZ(0);
+                        -ms-transform: translateZ(0);
+                        -o-transform: translateZ(0);
+                        transform: translateZ(0);
+                        -webkit-touch-callout: none;
+                        -webkit-user-select: none;
+                        -moz-user-select: none;
+                        -ms-user-select: none;
+                        user-select: none;
+                        -webkit-text-size-adjust: none;
+                        -moz-text-size-adjust: none;
+                        -ms-text-size-adjust: none;
+                        -o-text-size-adjust: none;
+                        text-size-adjust: none;
+                    }
+
+                    
+                    
+                        </style>
+                    
+                    
+                    <style>
+                        #a{width:255px !important;}
+                        #b{width:300px !important;}
+                        #c{width:300px !important;}
+                        
+                        #box1{width:255px !important;}
+                        #box2{width:155px !important;}
+                        #box3{width:310px !important;}
+                        
+                        #basic{width:247px !important;}
+                        </style>
+                    <!---<style>
+                        #searchwrapper {
+                            width: 254px;
+                            padding-bottom: 39px;
+                            background-repeat: no-repeat;
+                            margin: 0px;
+                            position: relative;
+                            background-color: white;
+                            border-radius: 13px;
+                            border:solid 1px #666;
+                            
+                        }
+                        #searchwrapper form {
+                            display:inline;
+                        }
+                        .searchbox {
+                            border: 0px;
+                            background-color: transparent;
+                            position: absolute;
+                            top: 4px;
+                            left: 48px;
+                            width: 166px;
+                            height: 21px;
+                        }
+                        .searchbox_submit2 {
+                            border: 0px;
+                            background-color: rgba(0, 0, 0, 0);
+                            position: absolute;
+                            top: 0px;
+                            left: 167px;
+                            width: 32px;
+                            height: 32px;
+                        }
+                        .searchbox_submit {
+                            border: 0px;
+                            background-color: transparent;
+                            position: absolute;
+                            top: 0px;
+                            left: 225px;
+                            width: 32px;
+                            height: 32px;
+                        }
+                        .searchbox_icon {
+                            background-color: transparent;
+                            position: absolute;
+                            top: 4px;
+                            width: 32px;
+                            height: 23px;
+                            background-image: url(icon.jpg);
+                            background-repeat: no-repeat;
+                            margin-left: 9px;
+                        }
+                        
+                        </style>-->
+                    
+                    <!--popup--start---csss-->
+                    <style>
+                        .arrow {
+                            top: 21%;
+                            /*left: -11px;*/
+                            left: -10%;
+                            margin-top: -11px;
+                            background-image: url(img/drop_down_arrow2.png);
+                            background-repeat:no-repeat;
+                            padding:6px;
+                        }
+                    .arrow, .arrow:after {
+                        position: absolute;
+                        display: block;
+                        width: 3%;
+                        height:13%;
+                        border-color: rgba(0, 0, 0, 0);
+                        border-style: solid;
+                    }
+                    
+                    .popup{
+                        background-color:#0d83dd; 
+                        margin-left: 2px;
+                        padding-left: 14px;
+                        padding-right: 14px;
+                        padding-top:12px;
+                    }
+                    </style>
+                    <!--popup--start---csss-->
+
+                   <!-- <link rel="stylesheet" href="jqm/jquery.mobile-1.1.0-rc.1.min.css" />-->
+                    <style>
+                        #wrapper1 {
+                            position:absolute;
+                            z-index:1;
+                            top:5px; 
+                            bottom:8px;
+                            left:0;
+                            width:100%;
+                            overflow:auto;
+                        }
+                        
+                        #scroller1 {
+                            position:absolute;
+                            z-index:1;
+                            -webkit-tap-highlight-color:rgba(0,0,0,0);
+                            width:100%;
+                            padding:0;
+                        }
+                    
+                    
+                    .btn {
+                        display: inline-block;
+                        padding: 4px 12px;
+                        margin-bottom: 0;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #333333;
+                        text-align: center;
+                        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+                        vertical-align: middle;
+                        cursor: pointer;
+                        background-color: #f5f5f5;
+                        background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+                        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+                        background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+                        background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+                        background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+                        background-repeat: repeat-x;
+                        border: 1px solid #cccccc;
+                        border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+                        border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+                        border-bottom-color: #b3b3b3;
+                        -webkit-border-radius: 4px;
+                        -moz-border-radius: 4px;
+                        border-radius: 4px;
+                        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+                        filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+                        -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                        -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                    }
+                    
+                    #customerSummary {
+                        
+                        float: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    
+                    #dashboardTable {
+                        height: 120px;
+                       
+                    }
+                    
+                    
+                        </style>
+                    
+                    
+                    
+                    
+                    <!---bottom_navigtion_customer-->
+                    
+                    <style type="text/css">
+                        .btn-group-justified {
+                            display: table;
+                            width: 23.85%;
+                            /*width: 100%;*/
+                            border-collapse: separate;
+                            /*table-layout: fixed;*/
+                            background-color: #f5f5f5;
+                            *background-color: #e6e6e6;
+                            background-image: -moz-linear-gradient(top, #414548, #1c1f20);
+                            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#414548), to(#1c1f20));
+                            background-image: -webkit-linear-gradient(top, #414548, #1c1f20);
+                            background-image: -o-linear-gradient(top, #414548, #1c1f20);
+                            background-image: linear-gradient(to bottom, #414548, #1c1f20);
+                            background-repeat: repeat-x;
+                            border: 1px solid #cccccc;
+                            *border: 0;
+                            border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+                            border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+                            border-bottom-color: #b3b3b3;
+                            /*  -webkit-border-radius: 4px;
+                             -moz-border-radius: 4px;
+                             border-radius: 4px;
+                             filter:*/
+                            progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+                            filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+                            *zoom: 1;
+                            -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                            -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+                        }
+                    .btn-group-justified .btn1 {
+                        display: table-cell;
+                        float: none;
+                        width: 1%;
+                    }
+                    .btn1 {
+                        display: inline-block;
+                        *display: inline;
+                        padding: 9px 13px;
+                        margin-bottom: 0;
+                        *margin-left: .3em;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                        text-align: center;
+                        vertical-align: middle;
+                        cursor: pointer;
+                        
+                        
+                    }
+                    
+                    .btn1:hover, .btn1:focus, .btn1:active, .btn1.active, .btn1.disabled, .btn1[disabled] {
+                        color: #FFF;
+                        background-image:url(img/footer_nav.png);
+                    }
+                    .socialmedialink {
+                        display: block;
+                        right: -23px;
+                        outline: none;
+                        position: fixed;
+                        top: 150px;
+                    }
+                    
+                    
+                    
+                    
+                    
+                    </style>
+                    <!---end--bottom_navigtion_customer-->
+                    
+                    
+                    
+                    
+                    
+<!--<script src="jqm/jquery.mobile-1.1.0-rc.1.min.js"></script> -->
+                    
+                   <link href="css/bootstrap-responsive.css" rel="stylesheet">
+                        
+                        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+                        <!--[if lt IE 9]>
+                         <script src="../assets/js/html5shiv.js"></script>
+                         <![endif]-->
+                        
+                        <!-- Fav and touch icons-->
+                        
+                        <link href="css/docs.css" rel="stylesheet" type="text/css">
+                            
+                            
+                            <!-------new_accordin_css----------->
+                            <link rel="stylesheet" href="css/accordionpro.min.css">
+                                <script src="jqm/jquery-1.9.1.min.js"></script>
+                                <script src="js/test.js"></script>
+                               <!-- <script src="js/jquery.nicescroll.min.js"></script>
+                                -->
+                               <script type="text/javascript" src="js/iscroll.js"></script>
+                                <!-------end_accordin_css----------->
+                                
+                                <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
+                                
+                                </head>
+    <body style="height:100%;">
+       
+      
+      <div id="launchPage"  data-role="page" data-theme='a' data-scroll="false">
+      
+      
+      </div>
+      
+      
+       <div id="loginuser"  data-role="page" data-theme='a' data-scroll="false">
+           
+        <div data-role="popup" id="forgotPasswordPopup"  style="height:200px; width:680px; border:none;" data-dismissible="false">
+           <div data-role="header" style="background-image:url(img/nav.jpg)">
+               <h1 style="color:white;">Foorgot Password</h1>
+               <img onclick="closeforgotPasswordPopup();" src="img/close_btn.png" width="40px" height="40px" style="position: relative;
+                   z-index: 12;
+                   float: right;
+                   top: -39px; right: 4px;"></img>
+           </div>
+           
+           
+           <div  data-role="content" >
+               <div style="float:center;width:100%">
+                   Enter in your email address and your password will be sent to you.
+                   <div class="control-group">
+                       <label style="color: white; text-shadow: none;" class="control-label" for="txtForgotPassword">Password</label>
+                       <div class="controls">
+                           <input type="email" id="txtForgotPassword" placeholder="Email">
+                        </div>
+                   </div>
+                   <fieldset class="ui-grid-b">
+                       <div class="ui-block-a"></div>
+                                              <div class="ui-block-b"></div>
+                       <div class="ui-block-c"><button onclick="requestForForgotPassword();" data-mini="true" data-theme="a">Submit</button></div>
+                       </fieldset>
+               </div>
+           </div>
+           
+           
+           
+           </div>
+           
+           <div data-role="content"  >
+               <div id="loginpage_content" class="span8">
+                   
+                   
+                   
+                   <div class="control-group">
+                       <label style="color:white;text-shadow: none; " class="control-label" for="txtLoginUsername">Username</label>
+                       <div class="controls">
+                           <input type="text" id="txtLoginUsername" placeholder="Username">
+                               </div>
+                   </div>
+                   <div class="control-group">
+                       <label style="color: white; text-shadow: none;" class="control-label" for="txtLoginPassword">Password</label>
+                       <div class="controls">
+                           <input type="password" id="txtLoginPassword" placeholder="Password">
+                               </div>
+                   </div>
+                   
+                   <fieldset class="ui-grid-b">
+                       <div class="ui-block-a"><button onclick="moveToPage('login_page');" data-mini="true" data-theme="a">Register</button></div>
+                       <div class="ui-block-b"><button onclick="get_sync_token();" data-mini="true" data-theme="a">Log In</button></div>
+                       <div class="ui-block-c"><button onclick="openForgotPasswordPopup();" data-mini="true" data-theme="a">Forgot Password</button></div>
+                     </fieldset>
+                   
+                   
+                   
+               </div>
+                <div class="clearfix"></div>
+           </div>
+           
+           <div class="clearfix"></div>
+           
+           
+           
+       </div>
+       
+       
+       
+       <div id="login_page" data-role="page" data-theme='a' data-scroll="false" >
+           
+           <div data-role="content"  >
+                   <div id="login_page_content" class="span8">
+                       
+                           <div class="control-group">
+                               <label style="color:white;text-shadow: none; " class="control-label" for="inputEmail">Email</label>
+                               <div class="controls">
+                                   <input type="text" id="txtEmail" placeholder="Email">
+                                       </div>
+                           </div>
+                           <div class="control-group">
+                               <label style="color: white; text-shadow: none;" class="control-label" for="inputPassword">Rep Number</label>
+                               <div class="controls">
+                                   <input type="text" id="txtRepNo" placeholder="Rep Number">
+                                       </div>
+                           </div>
+                           <p></p>
+                           <fieldset class="ui-grid-a">
+                               <div class="ui-block-a"><button onclick="initial_install();" data-mini="true" data-theme="a">Submit</button></div>
+                               <div class="ui-block-b"><button onclick="moveBackToPage('loginuser');" data-mini="true" data-theme="a">Back To Login</button></div>
+                              </fieldset>
+                           
+                           
+                       
+                   </div>
+               
+           </div>
+           
+           
+           
+           
+       </div>
+   
+   
+ <!--  <div data-role="page" id="register" data-theme='a' data-scroll="false">
+       
+       <div data-role="content" style="background-color: #0d83dd;">
+               <div id="register_content" class="span8">
+                   
+                   
+                       <div class="controls">
+                           <input   type="text" id="txtInstallCode" placeholder="Installation Code">
+                               </div>
+                       <div class="controls">
+                           <input type="text" id="txtUsername" placeholder="Username">
+                               </div>
+                       <div class="controls">
+                           <input type="password" id="txtPassword" placeholder="Password">
+                               </div>
+                   
+                       <div class="controls">
+                           <input type="password" id="txtPin" placeholder="PIN">
+                               </div>
+                   
+                       <div class="controls">
+                           <input type="password" id="txtDeviceName" placeholder="Device Name">
+                               <input type="hidden" name="uuid" id="uuid"/>
+                               <input type="hidden" name="email" id="email"/>
+                               </div>
+                   
+                   
+                   
+                   
+                   <fieldset class="ui-grid-b" style="margin-top:30px;margin-left:210px;">
+                       <div class="ui-block-b"><button onclick="set_profile();" type="submitt" data-role="button" data-mini="true" data-theme="a" style=" text-shadow: none;">Register</button></div>
+                   </fieldset>
+                   
+                   
+                   
+                   
+           </div>
+           
+       </div>
+       
+   </div>
+-->
+ 
+ 
+ <div data-role="page" id="register" data-theme='a' data-scroll="false">
+     
+     <div data-role="content" style="background-color: #0d83dd;">
+         
+         
+         <div  class="hero-unit">
+             <div class="hero_inner_box2" style="margin-top:10%;">
+                 
+                 <div class="span6">
+                     <div class="form-horizontal">
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <label class="control-label" for="inputEmail">First Name</label>
+                             <div class="controls">
+                                 <input style="width: 70%;" type="text" id="txtUsername" placeholder="Jonny">
+                                     </div>
+                         </div>
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <label class="control-label" for="inputPassword">Franchisee Name</label>
+                             <div class="controls">
+                                 <input style="width: 70%;" type="text" id="txtFranch_Name" placeholder="John Franchise">
+                                     </div>
+                         </div>
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <label class="control-label" for="inputPassword">Franchisee Number</label>
+                             <div class="controls">
+                                 <input style="width: 70%;" type="number" id="txtFranch_Number" placeholder="John Franchise">
+                                     </div>
+                         </div>
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <label class="control-label" for="inputPassword">Rep Name</label>
+                             <div class="controls">
+                                 <input style="width: 70%;" type="text" id="txtRep_Name" placeholder="JohnRep">
+                                     </div>
+                         </div>
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <label class="control-label" for="inputPassword">Rep Number</label>
+                             <div class="controls">
+                                 <input style="width: 70%;" type="number" id="txtRep_Number" placeholder="1234567">
+                                     </div>
+                         </div>
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <label class="control-label" for="inputPassword">Email Address</label>
+                             <div class="controls">
+                                 <input style="width: 70%;" type="email" id="txtEmail2" placeholder="JohnDoe@gmail.com">
+                                     </div>
+                         </div>
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <label class="control-label" for="inputPassword">Phone Number</label>
+                             <div class="controls">
+                                 <input style="width: 70%;" type="number" id="txtPhone_Number" placeholder="555-777-1234">
+                                     </div>
+                         </div>
+                     </div>
+                     <div class="span12">
+                         <div class="span7">Synch on Cellular-Data</div>
+                         <div class="span3 pull-right"><img src="img/green_btnl.png" width="40" height="38"></div>
+                     </div>
+                     <div class="span12">
+                         <div class="span8">Enable Push Notifications</div>
+                         <div class="span3 pull-right"><img src="img/green_btnl.png" width="40" height="38"></div>
+                     </div>
+                 </div>
+                 <div class="span5">
+                     <div class="form-horizontal">
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <label class="control-label" for="inputEmail">Last Name</label>
+                             <div class="controls">
+                                 <input style="width: 83%;" type="text" id="txtShip_To" placeholder="Doe">
+                                     </div>
+                         </div>
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <label class="control-label" for="inputEmail">Password</label>
+                             <div class="controls">
+                                 <input  style="width: 83%;"type="password" id="txtPassword" placeholder="************">
+                                     </div>
+                         </div>
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <label class="control-label" for="inputEmail">Confirm Password</label>
+                             <div class="controls">
+                                 <input style="width: 83%;" type="password" id="txtConf_Password" placeholder="************">
+                                     </div>
+                         </div>
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <label class="control-label" for="inputPassword">Device Name</label>
+                             <div class="controls">
+                                 <input style="width: 83%;" type="text" id="txtDeviceName" placeholder="JohnRep">
+                                     </div>
+                         </div>
+                         
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             
+                             <label class="control-label" for="inputPassword">Installation Code</label>
+                             <div class="controls">
+                                 <input style="width: 83%;" type="number" id="txtInstallCode" placeholder="12345">
+                                     </div>
+                             
+                         </div>
+                         
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             
+                             <label class="control-label" for="inputPassword">Pin</label>
+                             <div class="controls">
+                                 <input style="width: 83%;" type="number"  id="txtPin" placeholder="123456">
+                                     </div>
+                             
+                         </div>
+                         
+                         <div style="margin-bottom: 5px;" class="control-group">
+                             <input type="hidden" name="uuid" id="uuid"/>
+                             <!--<input type="hidden" name="email" id="email"/>-->
+                         </div>
+                     </div>
+                     <div class="controls" style="margin-left:200px;">
+                         <button onclick="set_profile();"  data-inline="true" data-mini="true" data-theme="a"> Register </button>
+                     </div>
+                 </div>
+                 <div class="clearfix"></div>
+             </div>
+             <div class="clearfix"></div>
+         </div>
+         <div class="clearfix"></div>
+         
+         
+         
+         
+         
+         <!--               <div id="register_content" class="span8">
+          
+          
+          <div class="controls">
+          <input   type="text" id="txtInstallCode" placeholder="Installation Code">
+          </div>
+          <div class="controls">
+          <input type="text" id="txtUsername" placeholder="Username">
+          </div>
+          <div class="controls">
+          <input type="password" id="txtPassword" placeholder="Password">
+          </div>
+          
+          <div class="controls">
+          <input type="password" id="txtPin" placeholder="PIN">
+          </div>
+          
+          <div class="controls">
+          <input type="password" id="txtDeviceName" placeholder="Device Name">
+          <input type="hidden" name="uuid" id="uuid"/>
+          <input type="hidden" name="email" id="email"/>
+          </div>
+          
+          
+          
+          
+          <fieldset class="ui-grid-b" style="margin-top:30px;margin-left:210px;">
+          <div class="ui-block-b"><button onclick="set_profile();" type="submitt" data-role="button" data-mini="true" data-theme="a" style=" text-shadow: none;">Register</button></div>
+          </fieldset>
+          
+          
+          
+          
+          </div>
+          -->
+         
+         
+         
+         
+         
+     </div>
+     
+ </div>
+ 
+
+
+<div data-role="page" id="dashboardwf" style="padding-bottom:0px;background-color: #0d83dd; position:relative; z-index:99;" data-scroll="false">
+    
+    <div data-role="header" data-theme="b">
+        
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <!-- <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     </button>-->
+                    <div class="span3" style="margin-left: 5px;border-right: solid 2px;padding-right: 15px;">
+                        <div class="navbar-search pull-left" style="width: 98%;">
+                            <input id="dashboardTopSearch" type="text" class="search-query" placeholder="Search"/>
+                        </div>
+                    </div>
+                    <div class="nav-collapse collapse">
+                        <p class="navbar-text pull-right"> <a href="#" class="navbar-link"><img src="img/logo.png" width="141" height="43"></a> </p>
+                        <div class="span2" style="margin-left: 10px;margin-top: 7px;">
+                            <p class="top_links">
+                            <a href="#about"><strong>eServ</strong></a></p>
+                            
+                        </div>
+                        <div id="dashboardTitle" class="span5" style="text-align: center;padding-top: 6px;">
+                            <p class="top_links"> <a href="#about"><strong>Dashboard</strong></a></p>
+                            
+                        </div>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    
+    <div style="background-color: #0d83dd;padding:15px 10px 0px 10px;" data-role="content" data-theme="b">
+        
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div id="dashboardsidebar"  style="background-color:#FFF;" class="span3"  >
+                    <ul class="nav nav-list bs-docs-sidenav affix">
+                        
+                        <li id="dashboard_li_side_nav" style="padding:0em 0; margin:0;" onclick="dashboard_Content();" class=""><a href="#dropdowns"><i class="icon-chevron-right"></i> Dashboard</a></li>
+                        <li onclick="dahsboard_keystates();" id="keystats_li_side_nav" style="padding:0em 0; margin:0;" class=""><a href="#dropdowns"><i class="icon-chevron-right"></i> Key stats</a></li>
+                        <li onclick="showPurchaseHistory();" id="imcomp_order_li_side_nav" style="padding:0em 0; margin:0;" class=""><a href="#buttonGroups"><i class="icon-chevron-right"></i> Incomplete orders</a></li>
+                        <li onclick="showPurchaseHistory();" id="hold_transmit_li_side_nav" style="padding:0em 0; margin:0;" class=""><a href="#buttonDropdowns"><i class="icon-chevron-right"></i> Hold transmit</a></li>
+                        <li onclick="showPurchaseHistory();" id="quote_li_side_nav" style="padding:0em 0; margin:0;" class=""><a href="#navs"><i class="icon-chevron-right"></i> Save Quote</a></li>
+                        <li onclick="showPurchaseHistory();" id="sync_li_side_nav" style="padding:0em 0; margin:0;" class=""><a href="#navbar"><i class="icon-chevron-right"></i>To Sync</a></li>
+                        <li onclick="showPurchaseHistory();" style="padding:0em 0; margin:0;" class=""><a href="#breadcrumbs"><i class="icon-chevron-right"></i>Unconfirmed</a></li>
+                        <li onclick="dashboard_SettingContent();" id="settings_li_side_nav" style="padding:0em 0; margin:0;" class=""><a href="#pagination"><i class="icon-chevron-right"></i>Settings</a></li>
+                        <li onclick="dahsboard_support();" id="support_li_side_nav"  style="padding:0em 0; margin:0;" class=""><a href="#labels-badges"><i class="icon-chevron-right"></i> Support</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                
+                <!--/span-->
+                <div id="dashboardContent"  class="span9" >
+                    
+                    
+                    
+                    <div id="keyStats">
+                        
+                        <div  class="hero-unit">
+                            <div class="hero_inner_box2">
+                                <h4>Key Stats:</h4>
+                                <div id="key_stats_div"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                         <div class="clearfix"></div>
+                        
+                    </div>
+                    
+                    
+                    <div id="dashboard_seting">
+                        
+                        <div  class="hero-unit">
+                            <div class="hero_inner_box2">
+                                <h4>Profile:</h4>
+                                <div class="span6">
+                                    <form class="form-horizontal">
+                                        <div style="margin-bottom: 5px;" class="control-group">
+                                            <label class="control-label" for="inputEmail">First Name</label>
+                                            <div class="controls">
+                                                <input style="width: 100%;" type="email" id="inputEmail" placeholder="Jonny">
+                                                    </div>
+                                        </div>
+                                        <div style="margin-bottom: 5px;" class="control-group">
+                                            <label class="control-label" for="inputFranch_Name">Franchisee Name</label>
+                                            <div class="controls">
+                                                <input style="width: 100%;" type="text" id="inputFranch_Name" placeholder="John Franchise">
+                                                    </div>
+                                        </div>
+                                        <div style="margin-bottom: 5px;" class="control-group">
+                                            <label class="control-label" for="inputFranch_Number">Franchisee Number</label>
+                                            <div class="controls">
+                                                <input style="width: 100%;" type="number" id="inputFranch_Number" placeholder="12345">
+                                                    </div>
+                                        </div>
+                                        <div style="margin-bottom: 5px;" class="control-group">
+                                            <label class="control-label" for="inputRep_Name">Rep Name</label>
+                                            <div class="controls">
+                                                <input style="width: 100%;" type="text" id="inputRep_Name" placeholder="JohnRep">
+                                                    </div>
+                                        </div>
+                                        <div style="margin-bottom: 5px;" class="control-group">
+                                            <label class="control-label" for="inputRep_Number">Rep Number</label>
+                                            <div class="controls">
+                                                <input style="width: 100%;" type="number" id="inputRep_Number" placeholder="1234567">
+                                                    </div>
+                                        </div>
+                                        <div style="margin-bottom: 5px;" class="control-group">
+                                            <label class="control-label" for="input_email" >Email Address</label>
+                                            <div class="controls">
+                                                <input style="width: 100%;" id="input_email" type="email" i placeholder="JohnDoe@gmail.com">
+                                                    </div>
+                                        </div>
+                                        <div style="margin-bottom: 5px;" class="control-group">
+                                            <label class="control-label" for="input_phone">Phone Number</label>
+                                            <div class="controls">
+                                                <input style="width: 100%;" type="number" id="input_phone" placeholder="555-777-1234">
+                                                    </div>
+                                        </div>
+                                    </form>
+                                    <div class="span12">
+                                        <div class="span7">Synch on Cellular-Data</div>
+                                        <div class="span3 pull-right"><img src="img/green_btnl.png" width="40" height="38"></div>
+                                    </div>
+                                    <div class="span12">
+                                        <div class="span8">Enable Push Notifications</div>
+                                        <div class="span3 pull-right"><img src="img/green_btnl.png" width="40" height="38"></div>
+                                    </div>
+                                </div>
+                                <div class="span5">
+                                    <form class="form-horizontal">
+                                        <div style="margin-bottom: 5px;" class="control-group">
+                                            <label class="control-label" for="input_shipTo">Last Name</label>
+                                            <div class="controls">
+                                                <input style="width: 100%;" type="text" id="input_shipTo" placeholder="Doe">
+                                                    </div>
+                                        </div>
+                                        <div style="margin-bottom: 5px;" class="control-group">
+                                            <label class="control-label" for="inputPassword">Password</label>
+                                            <div class="controls">
+                                                <input  style="width: 100%;"type="password" id="inputPassword" placeholder="************">
+                                                    </div>
+                                        </div>
+                                        <!--<div style="margin-bottom: 5px;" class="control-group">
+                                            <label class="control-label" for="inputConfirmPassword">Confirm Password</label>
+                                            <div class="controls">
+                                                <input style="width: 100%;" type="password" id="inputConfirmPassword" placeholder="************">
+                                                    </div>
+                                        </div>
+                                        <div style="margin-bottom: 5px;" class="control-group">
+                                            <label class="control-label" for="inputDeviceName">Device Name</label>
+                                            <div class="controls">
+                                                <input style="width: 100%;" type="text" id="inputDeviceName" placeholder="JohnRep">
+                                                    </div>
+                                        </div>
+                                        <div style="margin-bottom: 5px;" class="control-group">
+                                            
+                                            <label class="control-label" for="inputPin">Pin</label>
+                                            <div class="controls">
+                                                <input style="width: 100%;" type="number" id="inputPin" placeholder="12345">
+                                                    </div>
+                                            
+                                        </div>-->
+                                    </form>
+                                    <div class="controls" style="margin-left:200px;">
+                                        <button   data-inline="true" data-mini="true" data-theme="a"> Save </button>
+                                    </div>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                        
+                    </div>
+                    
+                    <div id="support_dashboard">
+                    
+                    
+                    <div  class="hero-unit">
+                        <div class="hero_inner_box2">
+                            <h4>Support</h4>
+                            <div class="span6">
+                                <div class="form-horizontal">
+                                    <div style="margin-bottom: 5px;" class="control-group">
+                                        <label class="control-label" for="supp_fname">First Name: *</label>
+                                        <div class="controls">
+                                            <p id="inputEmail"></p>
+                                            <input style="width: 100%;" type="text" id="supp_fname" placeholder="Mike">
+                                                </div>
+                                    </div>
+                                    <div style="margin-bottom: 5px;" class="control-group">
+                                        <label class="control-label" for="supp_email">Email: *</label>
+                                        <div class="controls">
+                                            <input style="width: 100%;" type="email" id="supp_email" placeholder="Mike.Doe@emil.com">
+                                                </div>
+                                    </div>
+                                    <div style="margin-bottom: 5px;" class="control-group">
+                                        <label class="control-label" for="supp_phone">Phone: *</label>
+                                        <div class="controls">
+                                            <input style="width: 100%;" type="number" id="supp_phone" placeholder="555-215-6302">
+                                                </div>
+                                    </div>
+                                    <div style="margin-bottom: 5px;" class="control-group">
+                                        <label class="control-label" >Time Zone: *</label>
+                                        <div class="btn-group">
+                                            <div id="timeZoneSelected" style="margin-left: 20px; width:140px !important;"  class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                                                EST
+                                                
+                                            </div>
+                                            <ul style="left: 10px !important; " class="dropdown-menu">
+                                                <div class="tooltip-arrow"></div>
+                                                <li onclick="selectionForTimeZone('EST');"><a>EST</a></li>
+                                                <li onclick="selectionForTimeZone('AST');"><a>AST</a></li>
+                                                <li onclick="selectionForTimeZone('CST');"><a>CST</a></li>
+                                                <li onclick="selectionForTimeZone('MST');"><a>MST</a></li>
+                                                <li onclick="selectionForTimeZone('PST');"><a>PST</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="span5" style="width:45%;">
+                                <div class="form-horizontal">
+                                    <div style="margin-bottom: 5px;" class="control-group">
+                                        <label class="control-label" for="supp_lname">Last Name: *</label>
+                                        <div class="controls">
+                                            <input style="width: 100%;" type="text" id="supp_lname" placeholder="Doe">
+                                                </div>
+                                    </div>
+                                    <div style="margin-bottom: 5px;" class="control-group">
+                                        <label class="control-label" for="supp_comp_name">Company Name: *</label>
+                                        <div class="controls">
+                                            <input  style="width: 100%;"type="text" id="supp_comp_name" placeholder="Mikes Mechanics">
+                                                </div>
+                                    </div>
+                                    <!--  <div style="margin-bottom: 5px;" class="control-group">
+                                     <label class="control-label" for="inputConfirmPassword">Confirm Password</label>
+                                     <div class="controls">
+                                     <input style="width: 100%;" type="password" id="inputConfirmPassword" placeholder="************">
+                                     </div>
+                                     </div> -->
+                                    <div style="margin-bottom: 5px;" class="control-group">
+                                        <label class="control-label" for="">Preferred Contact Method: *</label>
+                                        <div class="btn-group">
+                                            <div id="preferedEmailSelected" style="margin-left: 20px; width:112px !important;"  class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                                                Email
+                                                
+                                            </div>
+                                            <ul style="left: 0px;" class="dropdown-menu">
+                                                <div class="tooltip-arrow"></div>
+                                                <li onclick="selectionForPreferedContact('Email');"><a>Email</a></li>
+                                                <li onclick="selectionForPreferedContact('Phone');"><a>Phone</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div style="margin-bottom: 5px;" class="control-group">
+                                        
+                                        <label class="control-label" for="">Best Time to Call: *</label>
+                                        <div class="btn-group">
+                                            <div id="bestTimeToCallSelected" style="margin-left: 20px; width:112px !important;" class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                                                Morning
+                                                
+                                            </div>
+                                            <ul style="left: 0px;" class="dropdown-menu">
+                                                <div class="tooltip-arrow"></div>
+                                                <li onclick="selectionForBestTimeToCall('Morning');"><a>Morning</a></li>
+                                                <li onclick="selectionForBestTimeToCall('Afternoon');"><a>Afternoon</a></li>
+                                                <li onclick="selectionForBestTimeToCall('Evening');"><a>Evening</a></li>
+                                                <li onclick="selectionForBestTimeToCall('Late Night');"><a>Late Night</a></li>
+                                            </ul>
+                                        </div>
+                                        
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="clearfix"></div>
+                            <div style="margin-bottom: 5px;margin-left: 15px;">
+                                
+                                
+                                <div data-role="fieldcontain">
+                                    <label style="width: 24%;" for="supp_message">Message: *</label>
+                                    <textarea style="width: 72%;" name="textarea" id="supp_message"></textarea>
+                                </div>
+                                
+                            </div>
+                            
+                            <div style="margin-left: 570px;">
+                               <button onclick="sendSupportEmail();"  data-inline="true" data-mini="true" data-theme="a">Send</button>
+                            </div>
+                        </div>
+                        
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                    
+                    </div>
+                    
+                    
+                    <div id="old_dashboard">
+                        <div id="firstSyncStatus">
+                            <div  class="hero-unit" >
+                                <div class="hero_inner_box">
+                                    <div class="span7"><p id="syncState"><p></div>
+                                    <div onclick="deleteHeroUnit('#firstSyncStatus');" class="span1 pull-right"><img src="img/button.png" width="37" height="24"> </div>
+                                    <div class="span7"><p id="imageSyncState"></p></div>
+                                    
+                                    <div class="clearfix"></div>
+                                    
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <!--<div id="customerSyncStatus">
+                         <div  class="hero-unit" >
+                         <div class="hero_inner_box">
+                         
+                         <div onclick="deleteHeroUnit('#customerSyncStatus');" class="span1 pull-right"><img src="img/button.png" width="37" height="24"> </div>
+                         <div class="clearfix"></div>
+                         
+                         
+                         
+                         
+                         </div>
+                         <div class="clearfix"></div>
+                         </div>
+                         </div>-->
+                        <div class="hero-unit">
+                            <div class="hero_inner_box2">
+                                <h4 >Dashboard Summary - </h4>
+                                <div class="span2 dashbord" >
+                                    <div class="inner_dashbord1">0</div>
+                                    <p style="text-align:center;">Incomplete Orders</p>
+                                </div>
+                                <div class="span2 dashbord" >
+                                    <div class="inner_dashbord1">0</div>
+                                    <p style="text-align:center;">Hold Transmit</p>
+                                </div>
+                                <div class="span2 dashbord" >
+                                    <div class="inner_dashbord1">0</div>
+                                    <p style="text-align:center;">Quotes</p>
+                                </div>
+                                <div class="span2 dashbord" >
+                                    <div class="inner_dashbord1">0</div>
+                                    <p style="text-align:center;">To Sync</p>
+                                </div>
+                                <div class="span2 dashbord" >
+                                    <div class="inner_dashbord1">0</div>
+                                    <p style="text-align:center;">Unconfirmed</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div><div class="clearfix"></div>
+                        </div>
+                        
+                        <div  class="hero-unit">
+                            <div class="hero_inner_box2">
+                                <h4>Action Required - </h4>
+                                <!--  <div id="dashboardTable">
+                                 <table class="table table-bordered">
+                                 <thead>
+                                 <tr>
+                                 <th>Order#</th>
+                                 <th>Status</th>
+                                 <th>Date</th>
+                                 <th>Customer</th>
+                                 <th>Total Item</th>
+                                 <th>Total Price</th>
+                                 <th>GM%</th>
+                                 <th></th>
+                                 </tr>
+                                 </thead>
+                                 </table>
+                                 <table>
+                                 <tbody>
+                                 <tr>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td><img src="img/button.png" width="37" height="24"></td>
+                                 </tr>
+                                 <tr>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td><img src="img/button.png" width="37" height="24"></td>
+                                 </tr>
+                                 <tr>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td><img src="img/button.png" width="37" height="24"></td>
+                                 </tr>
+                                 <tr>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td></td>
+                                 <td><img src="img/button.png" width="37" height="24"></td>
+                                 </tr>
+                                 </tbody>
+                                 </table>
+                                 </div> -->
+                                
+                                
+                                
+                                <div class="ui-grid-a">
+                                    <div class="ui-block-a ">
+                                        <div class="ui-grid-c">
+                                            <div class="ui-block-a ">
+                                                <div class="ui-bar ui-bar-a"><strong>Order#</strong></div>
+                                            </div>
+                                            <div class="ui-block-b ">
+                                                <div class="ui-bar ui-bar-a"><strong>Status</strong></div>
+                                            </div>
+                                            <div class="ui-block-c ">
+                                                <div class="ui-bar ui-bar-a"><strong>Date</strong></div>
+                                            </div>
+                                            <div class="ui-block-d ">
+                                                <div class="ui-bar ui-bar-a" style="height:40px;"><strong>Customer</strong></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ui-block-b ">
+                                        <div class="ui-grid-c">
+                                            <div class="ui-block-a ">
+                                                <div class="ui-bar ui-bar-a"><strong>Total Item</strong></div>
+                                            </div>
+                                            <div class="ui-block-b ">
+                                                <div class="ui-bar ui-bar-a"><strong>Total Price</strong></div>
+                                            </div>
+                                            <div class="ui-block-c ">
+                                                <div class="ui-bar ui-bar-a"><strong>GM%</strong></div>
+                                            </div>
+                                            <div class="ui-block-d ">
+                                                <div class="ui-bar ui-bar-a" style="height:40px;"><strong>Delete</strong></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div id="dashboardTable" style="background-color:#f5f5f5;">
+                                    
+                                    <div class="ui-grid-a" data-theme="a">
+                                        <div class="ui-block-a ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <div class="ui-bar ui-bar-a" style="height:40px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ui-block-b ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <!--<div class="ui-bar ui-bar-a" style="height:40px;"><img src="img/button.png" width="37" height="24"></div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="ui-grid-a" data-theme="a">
+                                        <div class="ui-block-a ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <div class="ui-bar ui-bar-a" style="height:40px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ui-block-b ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div clas/Users/nileshmaheshwari/Yuuuus="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <!--<div class="ui-bar ui-bar-a" style="height:40px;"><img src="img/button.png" width="37" height="24"></div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="ui-grid-a" data-theme="a">
+                                        <div class="ui-block-a ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <div class="ui-bar ui-bar-a" style="height:40px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ui-block-b ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <!--<div class="ui-bar ui-bar-a" style="height:40px;"><img src="img/button.png" width="37" height="24"></div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="ui-grid-a" data-theme="a">
+                                        <div class="ui-block-a ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <div class="ui-bar ui-bar-a" style="height:40px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ui-block-b ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <!--<div class="ui-bar ui-bar-a" style="height:40px;"><img src="img/button.png" width="37" height="24"></div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="ui-grid-a" data-theme="a">
+                                        <div class="ui-block-a ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <div class="ui-bar ui-bar-a" style="height:40px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ui-block-b ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <!--<div class="ui-bar ui-bar-a" style="height:40px;"><img src="img/button.png" width="37" height="24"></div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="ui-grid-a" data-theme="a">
+                                        <div class="ui-block-a ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <div class="ui-bar ui-bar-a" style="height:40px;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="ui-block-b ">
+                                            <div class="ui-grid-c">
+                                                <div class="ui-block-a ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-b ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-c ">
+                                                    <div class="ui-bar ui-bar-a"></div>
+                                                </div>
+                                                <div class="ui-block-d ">
+                                                    <!--<div class="ui-bar ui-bar-a" style="height:40px;"><img src="img/button.png" width="37" height="24"></div>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                            
+                            
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--/span-->
+            <div class="clearfix"></div>
+        </div>
+        <!--/row-->
+        
+    </div>
+    
+    <div data-role="footer" class="dash_footer" style="position:fixed;" data-position="fixed" data-tap-toggle="false">
+        
+        
+        <div id="flip-nav">
+            <div class="navbar navbar-fixed-bottom">
+                <div class="navbar-inner">
+                    <ul class="nav_footer">
+                        <li onclick="getAllCustomers();"><a href="#" class="current"><i class="icon-bookmark"></i>Customer</a></li>
+                        <li onclick="getBaseCategFromLocalDb('login');"><a href="#"><i class="icon-th-list"></i></i>Catalog</a></li>
+                        <li class="active" onclick="moveToPage('dashboardwf');"><a><i class="icon-edit"></i>Dashboard</a></li>
+                        <li onclick="showPurchaseHistory();"><a href="#"><i class="icon-retweet"></i>Orders</a></li>
+                        <li onclick="showPurchaseHistory();" style=" border-right:none;"><a><i class="icon-volume-up"></i>Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+</div>
+
+
+
+
+     <div data-role="page" id="sync_page" style="padding-bottom:0px;background-color: #0d83dd;" data-scroll="false">
+         <div data-role="header" data-theme="b" data-tap-toggle="false">
+             <div class="navbar navbar-inverse navbar-fixed-top">
+                 <div class="navbar-inner">
+                     <div class="container-fluid">
+                         <!-- <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          </button>-->
+                         <div class="nav-collapse collapse">
+                             <p class="navbar-text pull-right"> <a href="#" class="navbar-link"><img src="img/logo.png" width="141" height="43"></a> </p>
+                             <div id="catalogTitle" class="span9" style="text-align: center;padding-top: 6px;padding-left: 14%;">
+                                 <p class="top_links"> <a href="#about"><strong id="mainHeadCatalog1">Synching</strong></a></p>
+                                 
+                             </div>
+                         </div>
+                         <!--/.nav-collapse -->
+                     </div>
+                 </div>
+             </div>
+             
+         </div>
+         
+         
+         <div  style="background-color:#0D83DD; padding:15px 10px 0px 7px;" data-role="content" data-scroll="false">
+             <div id="syncStatusOnSyncPage">
+                 <div  class="hero-unit" >
+                     <div class="hero_inner_box">
+                         <div class="span7"><p id="syncStatusPageDiv"><p></div>
+                         <div class="span7"><p id="imageSyncStatusPageDiv"></p></div>
+                         
+                         <div class="clearfix"></div>
+                         
+                     </div>
+                     <div class="clearfix"></div>
+                 </div>
+             </div>
+         </div>
+         
+     </div>
+     
+        <div data-role="page" id="login" style="padding-bottom:0px;background-color: #0d83dd;" data-scroll="false">
+         <div data-role="header" data-theme="b" data-tap-toggle="false">
+             <div class="navbar navbar-inverse navbar-fixed-top">
+                 <div class="navbar-inner">
+                     <div class="container-fluid">
+                         <!-- <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          </button>-->
+                         <div class="span3" style="margin-left: 5px;border-right: solid 2px;padding-right: 15px;">
+                             <div class="navbar-search pull-left" style="width: 98%;">
+                                 <input id="catalogSearchInput" type="text" class="search-query" placeholder="Search"/>
+                             </div>
+                         </div>
+                         <div class="nav-collapse collapse">
+                             <p class="navbar-text pull-right"> <a href="#" class="navbar-link"><img src="img/logo.png" width="141" height="43"></a> </p>
+                             <div class="span2" style="margin-left: 10px;margin-top: 7px;">
+                                 <p class="top_links">
+                                 <a href="#about"><strong>eServ</strong></a></p>
+                                 
+                             </div>
+                             <div id="catalogTitle" class="span5" style="text-align: center;padding-top: 6px;">
+                                 <p class="top_links"> <a href="#about"><strong id="mainHeadCatalog">Catalog</strong></a></p>
+                                 
+                             </div>
+                         </div>
+                         <!--/.nav-collapse -->
+                     </div>
+                 </div>
+             </div>
+             
+             
+             
+         </div>
+         <div data-theme="a" data-role="popup" id="popupBasic" data-dismissible="false" style="background: white;
+             border: solid 10px #73787F; left: 50%; position:relative;">
+             
+             <div class="arrow"></div>
+             
+             
+             <div class="span3">
+                 <h4>Product Number:</h4>
+             </div>
+             <div class="span2" style="margin-left:-40px;">
+                 <h4>Qty:</h4>
+             </div>
+             <div class="clearfix"></div>
+             
+             
+             <ul data-role="listview" data-inset="true"  data-theme="b">
+                 
+                 
+                 
+                 
+                 <li>
+                     
+                     <div class="ui-grid-a">
+                         <div id="pop1" class="ui-block-a"><input class="popupT" id="popupTxt1" type="text" inline="true" placeholder="Part no."/></div>
+                         <div style="width: 36%; margin-left: 7%;" class="ui-block-b"><input type="number" placeholder="qty."/></div>
+                     </div>
+                     
+                 </li>
+                 <li>
+                     <div class="ui-grid-a">
+                         <div id="pop2" class="ui-block-a"><input class="popupT" id="popupTxt2" type="text" inline="true" placeholder="Part no."/></div>
+                         <div style="width: 36%; margin-left: 7%;" class="ui-block-b"><input type="number" placeholder="qty."/></div>
+                     </div>
+                     
+                 </li><li>
+                     <div class="ui-grid-a">
+                         <div id="pop3" class="ui-block-a"><input class="popupT" id="popupTxt3" type="text" inline="true" placeholder="Part no."/></div>
+                         <div style="width: 36%; margin-left: 7%;" class="ui-block-b"><input type="number" placeholder="qty."/></div>
+                     </div>
+                     
+                 </li><li>
+                     <div class="ui-grid-a">
+                         <div id="pop4" class="ui-block-a"><input class="popupT" id="popupTxt4" type="text" inline="true" placeholder="Part no."/></div>
+                         <div style="width: 36%; margin-left: 7%;" class="ui-block-b"><input type="number" placeholder="qty."/></div>
+                     </div>
+                     
+                 </li>
+             </ul>
+             <a data-role="button" style="background-color: rgb(131, 131, 131);
+                 margin-left: 60%;position: relative;
+                 right: 6%;
+                 color: #fff;">Add To Cart</a>
+         </div>
+         <div  style="background-color:#0D83DD; padding:15px 10px 0px 7px;" data-role="content" data-scroll="false">
+             
+             <div class="container-fluid">
+                 <div class="row-fluid" id="basic1">
+                     <div id="catalogLeftMenu" class="span3"  >
+                         <div class="wrapper1" >
+                             <div id="basic">
+                                 <ol>
+                                     <li id="a" style="width:255px !important;">
+                                         <div id="box1">
+                                             <ul class="nav nav-list bs-docs-sidenav affix">
+                                                 <li id="liProductcatalog"><a  onclick="getBaseCategFromLocalDb('login');"><i class="icon-chevron-right"></i> Product Catalog</a></li>
+                                                <!-- <li id="liFastEntry" onclick="getFastEntry();"><a href="#popupBasic"  data-rel="popup"><i class="icon-chevron-right"></i> Fast Entry</a></li>-->
+                                                 <li id="liQuickSearch" onclick="showQuickSearch();"><a><i class="icon-chevron-right"></i> Quick Search</a></li>
+                                                 <li id="liPartPrefix" onclick="showPartPrefix();"><a href="#navs"><i class="icon-chevron-right"></i> Part Prefix</a></li>
+                                                 <!--<li class=""><a href="#navbar"><i class="icon-chevron-right"></i>To Sync</a></li>-->
+                                                 <li onclick="showPurchaseHistory();" class=""><a href="#breadcrumbs"><i class="icon-chevron-right"></i>Purchase History</a></li>
+                                                 <li onclick="showPdfCatalog();" class=""><a href="#pagination"><i class="icon-chevron-right"></i>PDF Catalog</a></li>
+                                             </ul>
+                                         </div>
+                                     </li>
+                                     <li id="b" style="width:300px !important;">
+                                         <h2 id="accordion_filter_heading" style="box-shadow: rgb(173, 168, 168) 0px 0px 10px inset;"><span style="margin-right:-5%;">Filter Options</span><b id="accordion_b" style="background-image: url(img/arrow.png);"></b></h2>
+                                         
+                                         <div id="box2">
+                                             <div id="filter_options_scroll">
+                                             <div id="filter_options_ul" style="text-align: center;">No filter options are available.
+                                                 </div>
+                                             
+                                             <!--<ul id="filter_options_ul" class="nav nav-list bs-docs-sidenav affix">
+                                                 
+                                             </ul>-->
+                                             
+                                         </div>
+                                             <div id="filter_options_buttons" style="bottom:7%;position:absolute;">
+                                             </div>
+                                             </div>
+                                     </li>
+                                     <li id="c" style="width:300px !important;">
+                                         <h2  style="box-shadow: rgb(173, 168, 168) 0px 0px 10px inset;"><span>Cart</span></h2>
+                                         <div id="box2">
+                                             <div id="cartDataScroll">
+                                             <div id="cartDataItem">
+                                                 <!-----box1---
+                                                              <div  style="border-bottom:solid 1px #666; padding-bottom:12px; padding-top:12px; text-align:text-align: center;"class="span12 ">
+                                                  <div class="span2" style="height: 30px;
+                                                  width: 32px;"> <img src="img/button.png" width="37" height="49"> </div>
+                                                  <div class="span9">
+                                                  <p>Cup Brush Crimp<br>
+                                                  4" x .02<br>
+                                                  Part #4713140</p>
+                                                  <div class="span4" style="height:47px;"> <img src="img/mini1.jpg" width="100" height="24"> </div>
+                                                  <div class="span6">
+                                                  <p>$25.50 x <br>
+                                                  $2550 </p>
+                                                  </div>
+                                                  </div>
+                                                  </div>
+                                                  <!-----box1----->
+                                             </div>
+                                             </div>
+                                             
+                                         </div>
+                                     </li>
+                                 </ol>
+                                 
+                             </div>
+                         </div>
+                         <div class="clearfix"></div>
+                     </div>
+                     
+                     
+                     <!--/span-->
+                     <div id="catalogContent" style="" class="span9" >
+                         <div  class="hero-unit" >
+                             <div style="border:none;" class="hero_inner_box">
+                                 <div id="bradcrumMain"> <strong></strong></div>
+                                 <!--    <div class="span3 pull-right">
+                                  <div class="input-prepend input-append">
+                                  <span class="add-on">
+                                  <img src="img/search.png" width="17" height="18"></span>
+                                  <input class="span8" id="appendedPrependedInput" type="text">
+                                  <span class="add-on">
+                                  <img src="img/close.png" width="25" height="21"></span>
+                                  </div>
+                                  </div> -->
+                                 <div class="clearfix"></div>
+                                 <div class="clearfix"></div>
+                             </div>
+                             <div class="clearfix"></div>
+                         </div>
+                         
+                         <div class="hero-unit" id="baseCategwf">
+                             <div class="hero_inner_box12">
+                                 
+                             </div>
+                         </div>
+                         
+                         
+                         
+                     </div>
+                     
+                 </div>
+                 <!--/span-->
+                 <div class="clearfix"></div>
+             </div></div>
+         
+         
+         
+         <div data-role="footer" data-position="fixed" data-tap-toggle="false">
+             
+             <div id="flip-nav">
+                 <div class="navbar navbar-fixed-bottom">
+                     <div class="navbar-inner">
+                         <ul class="nav_footer">
+                             <li onclick="getAllCustomers();"><a href="#" class="current"><i class="icon-bookmark"></i>Customer</a></li>
+                             <li class="active" onclick="getBaseCategFromLocalDb('login');"><a href="#"><i class="icon-th-list"></i></i>Catalog</a></li>
+                             <li  onclick="moveToPage('dashboardwf')"><a><i class="icon-edit"></i>Dashboard</a></li>
+                             <li onclick="showPurchaseHistory();"><a href="#"><i class="icon-retweet"></i>Orders</a></li>
+                             <li onclick="showPurchaseHistory();" style=" border-right:none;"><a><i class="icon-volume-up"></i>Blog</a></li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+             
+             
+             
+         </div>
+         
+         
+         
+         <!--sssssssssssssssssssssssss start ssssssssssssssssssssssssssss-->
+         
+         
+         <div data-role="popup" id="catalogProduct_Details_popup"  style="height:600px; width:680px; border:none;" data-dismissible="false">
+            <!-- <a href="#" data-rel="back" data-role="button"  data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+             -->
+             <div data-role="header" style="background-image:url(img/nav.jpg)">
+                 <h1 style="color:white;">Catalog: Line Details</h1>
+                 <img onclick="closeProductPopup();" src="img/close_btn.png" width="40px" height="40px" style="position: relative;
+                     z-index: 12;
+                     float: right;
+                     top: -39px; right: 4px;"></img>
+             </div>
+             
+             
+            <!-- <div  style=" float:left; position: relative;height:500px;"><img src="img/left_arrow.png" id="" onclick="catalogProduct_Details_popup_left();" style="position: relative;margin-top:250px" height="30px" width="30px"/>
+             </div> -->
+             
+             
+             
+             
+             
+             <div  data-role="content" >
+                 <div style="float:center;width:100%">
+                     
+                     
+                     <div>
+                         <div id="catalogProduct_Details">
+                         </div>
+                     </div>
+                     <div class="clearfix"></div>
+                 </div>
+                 
+             </div>
+             
+             
+             
+          <!--   <div  style" float:right; position: relative;height:500px;"><img src="img/right_arrow.png" onclick="catalogProduct_Details_popup_right();" style="position: relative; float:right; margin-top:220px" height="30px" width="30px"/>
+             </div> -->
+             
+             
+             
+             
+         </div>
+         
+         
+         <!--sssssssssssssssssssssssss end ssssssssssssssssssssssssssssss-->
+
+         
+         
+         
+         
+         
+         
+     </div>
+        
+        <!-----customer------>
+
+<div data-role="page" id="customer" style="padding-bottom:0px; background-color: #0d83dd;" data-scroll="false">
+    
+    <div style="position:fixed;" data-role="header" data-position="fixed" data-tap-toggle="false">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <div class="span3" style="margin-left: 5px;border-right: solid 2px;padding-right: 15px;">
+                        <input id="customerSearchInput" type="text" class="search-query" placeholder="Search"/>
+                        
+                    </div>
+                    <div class="nav-collapse collapse">
+                        <p class="navbar-text pull-right"> <a href="#" class="navbar-link"><img src="img/logo.png" width="141" height="43"></a> </p>
+                        <div class="span2" style="margin-left: 10px;margin-top: 7px;">
+                            <p class="top_links">
+                            <a href="#about"><strong>eServ</strong></a></p>
+                            
+                        </div>
+                        <div id="customerTitle" class="span5" style="text-align: center;padding-top: 6px;">
+                            <p class="top_links"> <a href="#about"><strong>Customer</strong></a></p>
+                            
+                        </div>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div style="background-color: #0d83dd;padding:15px 10px 0px 10px;" data-role="content" data-theme="b">
+        
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div id="customerscrolllist"  style="background-color:#FFF;" class="span3"  >
+                    <ul style="height:auto;" id="customerList" class="nav nav-list bs-docs-sidenav affix">
+                        
+                        <li class="active" style="padding:0em 0; margin:0;font-size:13px; "><a href="#dropdowns" style="line-height:15px;"><i class="icon-chevron-right"></i> "R" Auto Sales  Repairs - #1..
+                            2122 Florance Ave...Rockford..</a></li>
+                        
+                        <li style="padding:0em 0; margin:0;font-size:13px;" class=""><a href="#buttonGroups"><i class="icon-chevron-right"></i> Customer Name - #123456
+                            3124 Elm St. Dallas TX 32145</a></li>
+                        
+                        <li style="padding:0em 0; margin:0;font-size:13px;" class=""><a href="#buttonDropdowns"><i class="icon-chevron-right"></i> Customer Name - #123456
+                            3124 Elm St. Dallas TX 32145</a></li>
+                        
+                        <li style="padding:0em 0; margin:0;font-size:13px;" class=""><a href="#navs"><i class="icon-chevron-right"></i> Save Quote</a></li>
+                        <li style="padding:0em 0; margin:0;" class=""><a href="#navbar"><i class="icon-chevron-right"></i>To sync</a></li>
+                        
+                        <li style="padding:0em 0; margin:0;font-size:13px;" class=""><a href="#breadcrumbs"><i class="icon-chevron-right"></i>Unconfirmed</a></li>
+                        <li style="padding:0em 0; margin:0;" class=""><a href="#pagination"><i class="icon-chevron-right"></i>Settings</a></li>
+                        
+                        <li style="padding:0em 0; margin:0;font-size:13px;" class=""><a href="#labels-badges"><i class="icon-chevron-right"></i> Support</a></li>
+                        
+                    </ul>
+                    
+                    <div class="clearfix"></div>
+               <div class="btn-group btn-group-justified" style=" position:absolute; z-index:122; bottom: 06%; display: block; ">
+                        <a onclick="getAllCustomersAccToName();" id="customerNameSort" class="active btn1 btn-default" role="button">Name</a>
+                        <a class="btn1 btn-default" onclick="getCustomerAccToLastPuchase();" id="customerPurchaseSort" role="button" >Last purchase </a>
+                        <a onclick="getCustomerAccToZip();" id="customerZipSort" class="btn1 btn-default" role="button">Zip</a>
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+                <!--/span-->
+                <div id="customerSummary"  class="span12" >
+                    
+                    <div class="hero-unit">
+                        <div class="hero_inner_box2">
+                            
+                            <div onclick="showPurchaseHistory();" class="span4"><a style="margin-top:0%;" data-role="button" class="btn dropdown-submenu" type="button">New Order</a></div>
+                            
+                            
+                            <div class="span3">
+                                <!--<div class="btn-toolbar" style="margin: 0;">
+                                 <div class="btn-group">
+                                 <button class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                                 <ul class="dropdown-menu">
+                                 <li><a href="#">Action</a></li>
+                                 <li><a href="#">Another action</a></li>
+                                 <li><a href="#">Something else here</a></li>
+                                 <li class="divider"></li>
+                                 <li><a href="#">Separated link</a></li>
+                                 </ul>
+                                 </div>
+                                 </div>-->
+                                
+                                
+                                
+                                <div class="btn-group">
+                                    <a  style="line-height: 30px !important;
+                                        font-weight: bold;
+                                        width: 64%;
+                                        margin-top: 0%;" class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                                        Actions
+                                        
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <div class="tooltip-arrow"></div>
+                                        <li onclick="getCustomerInfo();"><a>Summary</a></li>
+                                        <li onclick="showPurchaseHistory();"><a href="#">Order History</a></li>
+                                        <li onclick="getCustomerShipTo();"><a>Ship to Info</a></li>
+                                        <li onclick="showPurchaseHistory();"><a href="#">Purchase History</a></li>
+                                    </ul>
+                                </div>
+                                
+                                
+                            </div>
+                            
+                            
+                            <div onclick="showPurchaseHistory();" class="span4 pull-right"> <a  data-role="button" class="btn dropdown-submenu" style="margin-top: 0%;" type="button">Action Needed</a></div>
+                            
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    
+                    <div id="customerInfo" >
+                        
+                        <div class="hero-unit">
+                            <div class="hero_inner_box2">
+                                <h4 >Summary</h4>
+                                <div class="span3"><strong>"R" Auto Sales Repair</strong><br/>
+                                    Acct#: 1234567</div>
+                                <div class="span4"><strong>Order Quote: 00900148</strong>
+                                    GM: 43% / $40.54</div>
+                                <div class="span3"><strong>Order Quote</strong>: 00900148
+                                    GM: 43% / $40.54</div>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+                        <div class="hero-unit">
+                            <div class="hero_inner_box2">
+                                <h4 >Notes</h4>
+                                <div class="span5"><strong>Replacing current...</strong></div>
+                                
+                                
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+                        <div  class="hero-unit">
+                            <div class="hero_inner_box2">
+                                <h4 >A/R info</h4>
+                                <p style="background-color:#f5f5f5; padding:17px; box-shadow:0px 0px 6px #999; color:#333333;; "><strong>Status</strong></p>
+                                
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Current: </th>
+                                            <th>$224</th>
+                                            <th>Total Due: <br></th>
+                                            <th>$224.04</th>
+                                            <th># Charbacks:  </th>
+                                            <th>8</th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Over 30: </td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                            <td>@mdo</td>
+                                            <td>@mdo</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Over 60: </td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                            <td>@mdo</td>
+                                            <td>@mdo</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Over 90: </td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                            <td>@mdo</td>
+                                            <td>@mdo</td>
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Over 120: </td>
+                                            <td>Jacob</td>
+                                            <td>@twitter</td>
+                                            <td>@mdo</td>
+                                            <td>@mdo</td>
+                                            
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+                        
+                        <div  class="hero-unit">
+                            <div class="hero_inner_box2">
+                                <h4 >Contact Info</h4>
+                                <p style="background-color:#f5f5f5; padding:17px; box-shadow:0px 0px 6px #999; color:#333333;; "><strong>Bill to Contact:</strong></p>
+                                
+                                <table class="table table-bordered">
+                                    <tbody>
+                                        <tr>
+                                            <td>Current: </td>
+                                            <td>$224</td>
+                                            
+                                            <td>$224.04</td>
+                                            <td># Charbacks:  </td>
+                                            
+                                            
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td>Address: </td>
+                                            <td>3106 Wallin Ave</td>
+                                            
+                                            <td>Email:</td>
+                                            <td>@mdo</td>
+                                            
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>City/State/Zip: </td>
+                                            <td>Mark</td>
+                                            
+                                            <td>Route:</td>
+                                            <td>@mdo</td>
+                                            
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>AP Contact: </td>
+                                            <td>Jacob</td>
+                                            
+                                            <td>Contact 2:</td>
+                                            <td>@mdo</td>
+                                            
+                                            
+                                        </tr>
+                                        <tr>
+                                            <td>Phone: </td>
+                                            <td>Larry the Bird</td>
+                                            <td>@twitter</td>
+                                            <td>@mdo</td>
+                                            
+                                            
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <!--/span-->
+            <div class="clearfix"></div>
+        </div>
+        
+        
+        
+    </div>
+    
+    
+    <div data-role="footer" style="position:fixed; top:709px !important; display:block; z-index:999999999;" data-position="fixed" data-tap-toggle="false">
+        
+        
+        <div id="flip-nav">
+            <div class="navbar navbar-fixed-bottom">
+                <div class="navbar-inner">
+                    <ul class="nav_footer">
+                        <li onclick="moveToPage('customer');" class="active"><a href="#" class="active current"><i class="icon-bookmark"></i>Customer</a></li>
+                        <li onclick="getBaseCategFromLocalDb('login');"><a href="#"><i class="icon-th-list"></i></i>Catalog</a></li>
+                        <li onclick="moveToPage('dashboardwf');"><a><i class="icon-edit"></i>Dashboard</a></li>
+                        <li onclick="showPurchaseHistory();"><a href="#"><i class="icon-retweet"></i>Orders</a></li>
+                        <li onclick="showPurchaseHistory();" style=" border-right:none;"><a><i class="icon-volume-up"></i>Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+        
+    <!--sssssssssssssssssssssssss start ssssssssssssssssssssssssssss-->
+    
+    
+    <div data-role="popup" id="addNotesPopup" style="height:400px; width:600px; margin-right:100px; margin-top:20px;"  data-dismissible="false">
+        <a href="#" data-rel="back" data-role="button"  data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+        
+        <div data-role="header" style="background-image:url(img/nav.jpg)">
+            <h1 style="color:white;"> Customer Notes</h1>
+        </div>
+        
+        <div data-role="content">
+            <div data-role="fieldcontain" >
+                <input type="text" id="notetext" name="name" value="" placeholder="Add Note"  style="border-radius:0em; " />
+                <a href="#" onclick="addPopupLabel();" ><img src="img/add_button.jpg"/ style="height:30px; width:32px; margin-left:40px;"></a>
+            </div>
+            <div class="clearfix"></div>
+            <div id="addnotes" data-role="fieldcontain" >
+                
+                <table id="notetime" style="100%" ></table>
+                
+                
+            </div>
+            <div class="clearfix"></div>
+            
+        </div>
+    </div>
+    
+    
+    <!--sssssssssssssssssssssssss end ssssssssssssssssssssssssssssss-->
+</div>
+<!-----customer--end---->
+<div data-role="page" id="order_details" style="padding-bottom:0px; background-color: #0d83dd;" data-scroll="false">
+    
+    <div data-role="header" data-theme="b" data-tap-toggle="false">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <!-- <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     </button>-->
+                    <div class="span3" style="margin-left: 5px;border-right: solid 2px;padding-right: 15px;">
+                        <div class="navbar-search pull-left" style="width: 98%;">
+                            <input type="text" class="search-query" placeholder="Search"/>
+                        </div>
+                    </div>
+                    <div class="nav-collapse collapse">
+                        <p class="navbar-text pull-right"> <a href="#" class="navbar-link"><img src="img/logo.png" width="141" height="43"></a> </p>
+                        <div class="span2" style="margin-left: 10px;margin-top: 7px;">
+                            <p class="top_links">
+                            <a href="#about"><strong>eServ</strong></a></p>
+                            
+                        </div>
+                        <div id="catalogTitle" class="span5" style="text-align: center;padding-top: 6px;">
+                            <p class="top_links"> <a href="#about"><strong id="mainHeadCatalog">Order</strong></a></p>
+                            
+                        </div>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+    
+    <div style="background-color: #0d83dd;padding:15px 10px 0px 7px;" data-role="content" data-theme="b">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="span3"  >
+                    <div class="wrapper">
+                        <div id="basicAccordianForOrder">
+                            <ol>
+                                <li>
+                                    <h2> <span>Slide One</span></h2>
+                                    <div>
+                                        <div  style="border-bottom:solid 1px #666; padding-bottom:12px; padding-top:12px; text-align:text-align: center;"class="span12 ">
+                                            <div class="span9">
+                                                <div class="span4"> <img src="img/check.png" width="100" height="60"> </div>
+                                                <div class="span6">
+                                                    <p>10mm x 1.25</p>
+                                                </div>
+                                            </div>
+                                            <div class="span9">
+                                                <div class="span4"> <img src="img/check.png" width="100" height="60"> </div>
+                                                <div class="span6">
+                                                    <p>10mm x 1.25</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div  style="border-bottom:solid 1px #666; padding-bottom:12px; padding-top:12px; text-align: center;"class="span12 ">
+                                            <div class="span9">
+                                                <p><strong>Filter 2</strong></p>
+                                                <div class="span4"> <img src="img/mini1.jpg" width="100" height="60"> </div>
+                                                <div class="span6">
+                                                    <p>$25.50 x <br>
+                                                    $2550 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="border-bottom:solid 1px #666; padding-bottom:12px; padding-top:12px; "class="span12 ">
+                                            <div class="span2"> </div>
+                                            <div class="span9">
+                                                <p><strong>Filter 2</strong></p>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                            </div>
+                                        </div>
+                                        <div style="border-bottom:solid 1px #666; padding-bottom:12px; text-align: center;"class="span12 ">
+                                            <div class="span9">
+                                                <div class="span7">
+                                                    <button  style="padding: 4px 12px;
+                                                        margin-bottom: 0;" type="submit" class="btn">Submit</button>
+                                                </div>
+                                                <div class="span5">
+                                                    <button  style="padding: 4px 12px;
+                                                        margin-bottom: 0;" type="Clear" class="btn">Clear</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2><span>Slide Two</span></h2>
+                                    <div>
+                                        <div  style="border-bottom:solid 1px #666; padding-bottom:12px; padding-top:12px; text-align:text-align: center;"class="span12 ">
+                                            <div class="span9">
+                                                <div class="span4"> <img src="img/check.png" width="100" height="60"> </div>
+                                                <div class="span6">
+                                                    <p>10mm x 1.25</p>
+                                                </div>
+                                            </div>
+                                            <div class="span9">
+                                                <div class="span4"> <img src="img/check.png" width="100" height="60"> </div>
+                                                <div class="span6">
+                                                    <p>10mm x 1.25</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div  style="border-bottom:solid 1px #666; padding-bottom:12px; padding-top:12px; text-align: center;"class="span12 ">
+                                            <div class="span9">
+                                                <p><strong>Filter 2</strong></p>
+                                                <div class="span4"> <img src="img/mini1.jpg" width="100" height="60"> </div>
+                                                <div class="span6">
+                                                    <p>$25.50 x <br>
+                                                    $2550 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="border-bottom:solid 1px #666; padding-bottom:12px; padding-top:12px; "class="span12 ">
+                                            <div class="span2"> </div>
+                                            <div class="span9">
+                                                <p><strong>Filter 2</strong></p>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                            </div>
+                                        </div>
+                                        <div style="border-bottom:solid 1px #666; padding-bottom:12px; text-align: center;"class="span12 ">
+                                            <div class="span9">
+                                                <div class="span7">
+                                                    <button  style="padding: 4px 12px;
+                                                        margin-bottom: 0;" type="submit" class="btn">Submit</button>
+                                                </div>
+                                                <div class="span5">
+                                                    <button  style="padding: 4px 12px;
+                                                        margin-bottom: 0;" type="Clear" class="btn">Clear</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <h2> <span>Order #: 620011</span> </h2>
+                                    <div>
+                                        <div  style="border-bottom:solid 1px #666; padding-bottom:12px; padding-top:12px; text-align:text-align: center;"class="span12 ">
+                                            <div class="span9">
+                                                <div class="span4"> <img src="img/check.png" width="100" height="60"> </div>
+                                                <div class="span6">
+                                                    <p>10mm x 1.25</p>
+                                                </div>
+                                            </div>
+                                            <div class="span9">
+                                                <div class="span4"> <img src="img/check.png" width="100" height="60"> </div>
+                                                <div class="span6">
+                                                    <p>10mm x 1.25</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div  style="border-bottom:solid 1px #666; padding-bottom:12px; padding-top:12px; text-align: center;"class="span12 ">
+                                            <div class="span9">
+                                                <p><strong>Filter 2</strong></p>
+                                                <div class="span4"> <img src="img/mini1.jpg" width="100" height="60"> </div>
+                                                <div class="span6">
+                                                    <p>$25.50 x <br>
+                                                    $2550 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="border-bottom:solid 1px #666; padding-bottom:12px; padding-top:12px; "class="span12 ">
+                                            <div class="span2"> </div>
+                                            <div class="span9">
+                                                <p><strong>Filter 2</strong></p>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                                <label class="checkbox">
+                                                    <input type="checkbox">
+                                                        Check me out </label>
+                                            </div>
+                                        </div>
+                                        <div style="border-bottom:solid 1px #666; padding-bottom:12px; text-align: center;"class="span12 ">
+                                            <div class="span9">
+                                                <div class="span8">
+                                                    <button  style="padding: 4px 12px;
+                                                        margin-bottom: 0;" type="submit" class="btn">Submit</button>
+                                                </div>
+                                                <div class="span5">
+                                                    <button  style="padding: 4px 12px;
+                                                        margin-bottom: 0;" type="Clear" class="btn">Clear</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ol>
+                            
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                
+                <!--/span-->
+                <div style="background-color:#0d83dd; margin-left: 2px;
+                    padding-left: 14px;
+                    padding-right: 14px; padding-top:12px;" class="span8" >
+                    <div  class="hero-unit" >
+                        <div style="border:none;" class="hero_inner_box">
+                            <div class="span7"> <strong>"R" AUTO SALES REPAIR-#34325 </strong></div>
+                                <div class="span3 pull-right"> <strong> TOTAL:$75.00</strong>
+                                <div class="span4 pull-right"><img src="img/button.png" width="37" height="24"> </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                </div>
+                                <div class="clearfix"></div>
+                                </div>
+                                
+                                <!-- order_html-->
+                                <div class="hero-unit">
+                                <div class="hero_inner_box2">
+                                <!--<p class="pull-right"><strong>Items</strong></p>-->
+                                
+                                <!--<p style="background-color:#f5f5f5; padding:17px; box-shadow:0px 0px 6px #999;"><strong>Arbor Size 10mm x 1.25</strong></p>-->
+                                <table class="table abcd ">
+                                    <thead>
+                                        <tr>
+                                            <th> <div class="span5 pull-left"><img src="img/mini1.jpg" width="100" height="60"></div> <div class="span6 pull-right"><p>6666<br>sfdsfdsfdfdfdfdfdfdsfd</p></div>
+                                            </th>
+                                            <!--<th><p>6666<br>sfdsfdsfdfdfdfdfdfdsfd</p>
+                                             <p>fdsfdsfdsdsf</p></th>-->
+                                            <th> <div class="abc pull-left">QTY :</div> <input class="input-mini pull-right" type="text" placeholder=".input-mini">
+                                                <br>
+                                                PKG:1<br>U/M:PC</th>
+                                            <th>Each: <input class="input-mini" type="text" placeholder=".input-mini"><br>Each:</th>
+                                            <th><img src="img/button.png" width="37" height="24"></th>
+                                            
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        
+                                        
+                                        
+                                    </tbody>
+                                </table>
+                                <div class="clearfix"></div>
+                                </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <!-- order_html-->
+                        
+                        <!--<div class="hero-unit">
+                         <div class="hero_inner_box2">
+                         <p class="pull-right"><strong>Items</strong></p>
+                         <p>&nbsp;</p>
+                         <p style="background-color:#f5f5f5; padding:17px; box-shadow:0px 0px 6px #999;"><strong>Arbor Size 10mm x 1.25</strong></p>
+                         <table class="table">
+                         <thead>
+                         <tr>
+                         <th>#</th>
+                         <th>First Name</th>
+                         <th>Last Name</th>
+                         <th>Username</th>
+                         <th>Username</th>
+                         <th>Username</th>
+                         </tr>
+                         </thead>
+                         <tbody>
+                         <tr>
+                         <td>1</td>
+                         <td>Part Number</td>
+                         <td>Part Namer</td>
+                         <td>@mdo</td>
+                         <th>Username</th>
+                         <th>Username</th>
+                         </tr>
+                         <tr>
+                         <td>2</td>
+                         <td>Jacob</td>
+                         <td>Thornton</td>
+                         <td>@fat</td>
+                         <th>Username</th>
+                         <th>Username</th>
+                         </tr>
+                         <tr>
+                         <td>3</td>
+                         <td>Larry</td>
+                         <td>the Bird</td>
+                         <td>@twitter</td>
+                         <th>Username</th>
+                         <th>Username</th>
+                         </tr>
+                         </tbody>
+                         </table>
+                         <div class="clearfix"></div>
+                         </div>
+                         <div class="clearfix"></div>
+                         </div>-->
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <!--/span-->
+                <div class="clearfix"></div>
+            </div>
+            <!---end--Container_header----->
+            
+            <!-------footer_header---
+            <footer>
+                <div class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="navbar-inner">
+                        <ul class="nav" id="mainMenu">
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-bookmark"></i> Categories </a> </li>
+                            <li id="menuTutorial"><a href="/tutorial"><i class="icon-th-list"></i> Catalog</a></li>
+                            <li id="menuSubmit"><a href="/SubmitPlugin"><i class="icon-edit"></i> Dashboard</a></li>
+                            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-retweet"></i> Orders </a> </li>
+                            <li><a href="/advertise"><i class="icon-volume-up"></i> Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <!-----end--footer_header----->
+            
+        </div>
+    
+    <div data-role="footer" style="position:fixed; bottom:0px; z-index:9999999999;" data-position="fixed">
+            
+            
+            <div id="flip-nav">
+                <div class="navbar navbar-fixed-bottom">
+                    <div class="navbar-inner">
+                        <ul class="nav_footer">
+                            <li onclick="getAllCustomers();"><a href="#" class="current"><i class="icon-bookmark"></i>Customer</a></li>
+                            <li onclick="getBaseCategFromLocalDb('login');"><a href="#"><i class="icon-th-list"></i></i>Catalog</a></li>
+                            <li  onclick="moveToPage('dashboardwf');"><a><i class="icon-edit"></i>Dashboard</a></li>
+                            <li class="active" onclick="moveToPage('order_details');"><a href="#"><i class="icon-retweet"></i>Orders</a></li>
+                            <li style=" border-right:none;"><a><i class="icon-volume-up"></i>Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+</div>
+
+        <script>
+
+
+            $("#catalogSearchInput").on("keypress", function(event){
+                            if (event.keyCode === 13) {
+                            $("#catalogTopSearch").blur();
+                            }
+                            });
+            $("#customerSearchInput").on("keypress", function(event){
+                                                        if (event.keyCode === 13) {
+                                                        $("#customerTopSearch").blur();
+                                                        }
+                                                        });
+
+            $("#dashboardTopSearch").on("keypress", function(event){
+                            if (event.keyCode === 13) {
+                            $("#dashboardTopSearch").blur();
+                            }
+                            });
+
+                $("#dashboard_seting").hide();
+                $("#keyStats").hide();
+                $("#support_dashboard").hide();
+            function dashboard_SettingContent(){
+                
+                document.getElementById("settings_li_side_nav").className = "active";
+                document.getElementById("dashboard_li_side_nav").className = "";
+                document.getElementById("keystats_li_side_nav").className = "";
+                 document.getElementById("support_li_side_nav").className = "";
+                $("#dashboard_seting").show();
+                $("#keyStats").hide();
+                $("#old_dashboard").hide();
+                $("#support_dashboard").hide();
+    
+            }
+        
+            function dashboard_Content(){
+                
+                document.getElementById("dashboard_li_side_nav").className = "active";
+                document.getElementById("settings_li_side_nav").className = "";
+                document.getElementById("keystats_li_side_nav").className = "";
+                document.getElementById("support_li_side_nav").className = "";
+               $("#dashboard_seting").hide();
+                $("#keyStats").hide();
+                $("#old_dashboard").show();
+                $("#support_dashboard").hide();
+            
+            }
+
+function dahsboard_keystates(){
+    document.getElementById("dashboard_li_side_nav").className = "";
+    document.getElementById("settings_li_side_nav").className = "";
+    document.getElementById("keystats_li_side_nav").className = "active";
+     document.getElementById("support_li_side_nav").className = "";
+    $("#dashboard_seting").hide();
+    $("#keyStats").show();
+    $("#old_dashboard").hide();
+    $("#support_dashboard").hide();
+}
+        
+        function dahsboard_support(){
+            document.getElementById("dashboard_li_side_nav").className = "";
+            document.getElementById("settings_li_side_nav").className = "";
+            document.getElementById("keystats_li_side_nav").className = "";
+            document.getElementById("support_li_side_nav").className = "active";
+            $("#dashboard_seting").hide();
+            $("#keyStats").hide();
+            $("#old_dashboard").hide();
+            $("#support_dashboard").show();
+        }
+
+             $('#customerSearchInput').bind('input', function() {
+                               
+                                               searchCustomerWithName(); // get the current value of the input field.
+                               
+                               });
+
+
+
+            (function() {
+             
+             $('#addnotes').slimScroll({
+                                       height: '240px'
+                                       });
+             
+             
+             $('#customerSummary').slimScroll({
+                                              height: '660px'
+                                              });
+             
+             $('#customerList').slimScroll({
+                                           height: '617px',
+                                           touchScrollStep: 50
+                                           });
+             
+             $('#dashboardTable').slimScroll({
+                                             height: '150px'
+                                             });
+             
+//             $("#dashboardTable").niceScroll({touchbehavior:false,cursorcolor:"#00F",cursoropacitymax:0.7,cursorwidth:6,background:"#ccc",autohidemode:false});
+//             
+             $('#cartDataScroll').slimScroll({
+                                             height: '660px'
+                                             });
+             $('#filter_options_scroll').slimScroll({
+                                             height: '620px'
+                                             });
+             
+             
+             $('#basic').accordionPro({"orientation":"horizontal","theme":"basic"
+                                      ,horizontalWidth:240,
+                                      horizontalHeight: 700
+                                      });
+             
+             $('#basicAccordionForOrderHeader').accordionPro({"orientation":"horizontal","theme":"basic"
+                                      ,horizontalWidth:240,
+                                      horizontalHeight: 700
+                                      });
+             })();
+
+            function closeProductPopup(){
+//                        alert("popup close!!");
+                        $( "#catalogProduct_Details_popup" ).popup("close");
+                        }
+
+            </script>
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="plugins/com.couchbase.lite.phonegap/www/cblite.js"></script>
+        <script type="text/javascript" src="js/zepto.min.js"></script>
+        <script type="text/javascript" src="js/zepto.touch.js"></script>
+        <script type="text/javascript" src="js/modules.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/authentication.js"></script>
+        <script type="text/javascript" src="js/catalog_helper.js"></script>
+        <script type="text/javascript" src="js/customer_helper.js"></script>
+        <script src="jqm/jquery.mobile-1.3.0-beta.1.js"></script>
+        
+    </body>
+</html>

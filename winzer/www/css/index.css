@@ -1,0 +1,352 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+{
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+.ui-mobile .type-home .ui-content { 
+    background: white url(img/back.png); 
+    background-repeat: no-repeat; background-position: 50% 80%; /*50% 80% mozilla optimized*/ 
+    background-attachment: fixed; 
+    background-size: 50%; /*50% mozilla optimized */ 
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-image: url(img/back.png);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+@media (min-width: 35em){
+	.ui-responsive-panel.ui-page-panel-open .ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-push,
+	.ui-responsive-panel.ui-page-panel-open .ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-reveal,
+	.ui-responsive-panel.ui-page-panel-open .ui-panel-content-wrap-open.ui-panel-content-wrap-display-push,
+	.ui-responsive-panel.ui-page-panel-open .ui-panel-content-wrap-open.ui-panel-content-wrap-display-reveal {
+		margin-right: 17em;
+	}
+	.ui-responsive-panel.ui-page-panel-open .ui-panel-content-fixed-toolbar-open.ui-panel-content-wrap-display-push.ui-panel-content-fixed-toolbar-position-right,
+	.ui-responsive-panel.ui-page-panel-open .ui-panel-content-fixed-toolbar-open.ui-panel-content-wrap-display-reveal.ui-panel-content-fixed-toolbar-position-right,
+	.ui-responsive-panel.ui-page-panel-open .ui-panel-content-wrap-open.ui-panel-content-wrap-display-push.ui-panel-content-wrap-position-right,
+	.ui-responsive-panel.ui-page-panel-open .ui-panel-content-wrap-open.ui-panel-content-wrap-display-reveal.ui-panel-content-wrap-position-right {
+		margin: 0 0 0 17em;
+	}
+	.ui-responsive-panel .ui-panel-dismiss-display-push {
+		display: none;
+	}
+}
+/* Portrait layout (default)
+ background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
+ */
+.app {
+    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    position:absolute;             /* position in the center of the screen */
+    left:50%;
+    top:50%;
+    height:50px;                   /* text area height */
+    width:225px;                   /* text area width */
+    text-align:center;
+    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* A bit custom styling */
+.my-page {
+    background: #222;
+}
+/* Link to the Google webfont is in the head */
+.my-page .ui-title, .my-page .ui-li-aside {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.my-page .ui-header {
+    color: #ffffff;
+}
+.my-page .ui-footer {
+    color: #666;
+}
+.my-page .ui-li-desc {
+    color: #c0c0c0;
+}
+.my-page .ui-li-aside {
+    color: #990099;
+}
+.my-page .ui-listview .ui-li.ui-btn {
+    background-image: none;
+    border-color: #222;
+}
+/* First breakpoint is 768px. 3 column layout. Tiles 250x250 pixels at the breakpoint. */
+@media all and (min-width: 768px){
+    .my-page .ui-content {
+        padding: 9px;
+    }
+    .my-page .ui-listview .ui-li.ui-btn {
+        float: left;
+        width: 30.9333%; /* 33.3333% incl. 2 x 1.2% margin */
+        height: 232px;
+        margin: 9px 1.2%;
+        border-width: 0; /* The 1px border would break the layout so we set it on .ui-btn-inner instead. */
+    }
+    /* If you don't want a border at all, just set "border: none;" here to negate the semi white top border */
+    .my-page .ui-listview .ui-li.ui-btn-inner {
+        border: inherit;
+        border-width: 1px;
+        margin: -1px;
+    }
+    .my-page .ui-listview .ui-btn-inner,
+    .my-page .ui-listview .ui-btn-text,
+    .my-page .ui-listview .ui-link-inherit,
+    .my-page .ui-listview .ui-li-thumb {
+        width: 100%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+    }
+    .my-page .ui-listview .ui-link-inherit {
+        padding: 0 !important;
+        position: relative;
+    }
+    /* Inherit the border-radius from the UL that has class .ui-corner-all in case of an inset listview. */
+    .my-page .ui-listview .ui-li,
+    .my-page .ui-listview .ui-btn-text,
+    .my-page .ui-listview .ui-link-inherit,
+    .my-page .ui-listview .ui-li-thumb {
+        -webkit-border-radius: inherit;
+        border-radius: inherit;
+    }
+    .my-page .ui-listview .ui-li-thumb {
+        height: auto; /* To keep aspect ratio. */
+        max-width: 50%;
+        max-height: none;
+        margin: 50px;
+        left: 0;
+        z-index: -1;
+    }
+    /* Hide the icon */
+    .my-page .ui-listview .ui-icon {
+        display: none;
+    }
+    /* Make text wrap. */
+    .my-page .ui-listview .ui-li-heading,
+    .my-page .ui-listview .ui-li-desc {
+        white-space: normal;
+        overflow: visible;
+        position: absolute;
+        
+        left: 0;
+        right: 0;
+    }
+    /* Text position */
+    .my-page .ui-listview .ui-li-heading {
+        margin: 0;
+        padding: 20px;
+        bottom: 50%;
+    }
+    .my-page .ui-listview .ui-li-desc {
+        margin: 0 auto;
+        padding:10px 20px;
+        min-height: 50%;
+        bottom: 0;
+        line-height: 1.5;
+    }
+    /* Semi transparent background and different position if there is a thumb */
+    .ui-listview .ui-li-has-thumb .ui-li-heading,
+    .ui-listview .ui-li-has-thumb .ui-li-desc {
+        background: #111;
+        background: rgba(0,0,0,.8);
+        -webkit-background-clip: padding;
+        background-clip: padding-box;
+    }
+    .ui-listview .ui-li-has-thumb .ui-li-heading {
+        padding: 10px;
+        bottom: 20%;
+    }
+    .ui-listview .ui-li-has-thumb .ui-li-desc {
+        padding: 10 10 10px;
+        min-height: 20%;
+        -webkit-border-bottom-left-radius: inherit;
+        border-bottom-left-radius: inherit;
+        -webkit-border-bottom-right-radius: inherit;
+        border-bottom-right-radius: inherit;
+    }
+    /* ui-li-aside has class .ui-li-desc as well so we have to override some things. */
+    .my-page .ui-listview .ui-li-desc.ui-li-aside {
+        padding: 2px 10px;
+        width: auto;
+        min-height: 0;
+        top: 0;
+        left: auto;
+        bottom: auto;
+        /* Custom styling. */
+        color: #c0c0c0;
+        background: #A55D35;
+        /*background: rgba(153,0,153,.85);*/
+        -webkit-border-top-right-radius: inherit;
+        border-top-right-radius: inherit;
+        -webkit-border-bottom-left-radius: inherit;
+        border-bottom-left-radius: inherit;
+        -webkit-border-bottom-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    /* If you want to add shadow, don't kill the focus style. */
+    .my-page .ui-listview .ui-btn:not(.ui-focus) {
+        -moz-box-shadow: 0px 0px 9px #111;
+        -webkit-box-shadow: 0px 0px 9px #111;
+        box-shadow: 0px 0px 9px #111;
+    }
+    /* Images mask the hover bg color so we give desktop users feedback by applying the focus style on hover as well. */
+    .my-page .ui-listview .ui-btn:hover {
+        -moz-box-shadow: 0px 0px 12px #387bbe;
+        -webkit-box-shadow: 0px 0px 12px #387bbe;
+        box-shadow: 0px 0px 12px #387bbe;
+    }
+    /* Animate focus and hover style, and resizing. */
+    .my-page .ui-listview .ui-btn {
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+}
+
+.ui-icon-myapp-email {
+		background-image: url("img/cart-icon.png");
+		background-size: 18px 18px;
+	}
+
+/* Second breakpoint. 4 column layout. Tiles will be 250x250 pixels again at the breakpoint. */
+@media all and (min-width: 1020px){
+    .my-page .ui-content {
+        padding: 10px;
+    }
+    /* Set a max-width for the last breakpoint to prevent too much stretching on large screens.
+    By setting the max-width equal to the breakpoint width minus padding we keep square tiles. */
+    .my-page .ui-listview {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    /* Because of the 1000px max-width the width will always be 230px (and margin left/right 10px),
+    but we stick to percentage values for demo purposes. */
+    .my-page .ui-listview .ui-li.ui-btn {
+        width: 23%;
+        height: 230px;
+        margin: 10px 1%;
+
+
+

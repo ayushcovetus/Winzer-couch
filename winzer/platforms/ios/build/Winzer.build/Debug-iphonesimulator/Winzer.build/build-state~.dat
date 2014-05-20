@@ -1,0 +1,948 @@
+TWinzer
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Info.plist /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Info.plist
+cPhaseScriptExecution Copy\ www\ directory /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Script-304B58A110DAC018002A0835.sh
+cCpResource Winzer/config.xml build/Winzer.app/config.xml
+cCpResource Winzer/Resources/icons/icon-72.png build/Winzer.app/icon-72.png
+cCpResource Winzer/Resources/icons/icon.png build/Winzer.app/icon.png
+cCpResource Winzer/Resources/icons/icon@2x.png build/Winzer.app/icon@2x.png
+cCopyStringsFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/en.lproj/Localizable.strings Winzer/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/es.lproj/Localizable.strings Winzer/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.xib
+cCopyStringsFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/de.lproj/Localizable.strings Winzer/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/se.lproj/Localizable.strings Winzer/Resources/se.lproj/Localizable.strings
+cCpResource Winzer/Resources/splash/Default-Landscape@2x~ipad.png build/Winzer.app/Default-Landscape@2x~ipad.png
+cCpResource Winzer/Resources/splash/Default-Landscape~ipad.png build/Winzer.app/Default-Landscape~ipad.png
+cCpResource Winzer/Resources/splash/Default-Portrait@2x~ipad.png build/Winzer.app/Default-Portrait@2x~ipad.png
+cCpResource Winzer/Resources/splash/Default-Portrait~ipad.png build/Winzer.app/Default-Portrait~ipad.png
+cCpResource Winzer/Resources/splash/Default@2x~iphone.png build/Winzer.app/Default@2x~iphone.png
+cCpResource Winzer/Resources/splash/Default~iphone.png build/Winzer.app/Default~iphone.png
+cCpResource Winzer/Resources/splash/Default-568h@2x~iphone.png build/Winzer.app/Default-568h@2x~iphone.png
+cCpResource Winzer/Resources/icons/icon-72@2x.png build/Winzer.app/icon-72@2x.png
+cProcessPCH /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch.pch Winzer/Winzer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/main.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/AppDelegate.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/MainViewController.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CBLite.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLite.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Insomnia.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/nl.x-services.plugins.insomnia/Insomnia.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CDVSplashScreen.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Winzer normal i386
+cGenerateDSYMFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app.dSYM /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Winzer
+cTouch /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000525642F10000000000000176
+t1381384945
+s374
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c000000005288960C00000000000003B5
+t1384683020
+s949
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005288961D00000000000001A0
+t1384683037
+s416
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000052889620000000000047C980
+t1384683040
+s4704640
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005288961E0000000000191F30
+t1384683038
+s1646384
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000005288961F00000000004F2C70
+t1384683039
+s5188720
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c000000005288961F0000000000059350
+t1384683039
+s365392
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005288962000000000009040F0
+t1384683040
+s9453808
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005288962000000000005838D0
+t1384683040
+s5781712
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000528896200000000000445870
+t1384683040
+s4479088
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005288962000000000000EC820
+t1384683040
+s968736
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000528896200000000000133B60
+t1384683040
+s1260384
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052889622000000000088C680
+t1384683042
+s8963712
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c00000000528896240000000000666670
+t1384683044
+s6710896
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000052889624000000000070DDC0
+t1384683044
+s7396800
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005288962400000000001BA530
+t1384683044
+s1811760
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c0000000052889624000000000007C070
+t1384683044
+s508016
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005288962500000000004848F0
+t1384683045
+s4737264
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+c000000005288962500000000001290B0
+t1384683045
+s1216688
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005288962600000000001081B0
+t1384683046
+s1081776
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000528896290000000001DB9910
+t1384683049
+s31168784
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libicucore.dylib
+c000000005288964800000000004F37D0
+t1384683080
+s5191632
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libsqlite3.dylib
+c000000005288964800000000001D3590
+t1384683080
+s1914256
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libstdc++.dylib
+c0000000052889647000000000018DF60
+t1384683079
+s1630048
+
+N/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libz.dylib
+c0000000052889647000000000002B700
+t1384683079
+s177920
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/AppDelegate.m
+c00000000528C612700000000000013A3
+t1384931623
+s5027
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.m
+c0000000052849AEE0000000000001267
+t1384422126
+s4711
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.xib
+c0000000052849AEE0000000000001759
+t1384422126
+s5977
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLite.m
+c00000000528C612700000000000003CB
+t1384931623
+s971
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CouchbaseLite.a
+c00000000528C612700000000008C2D2C
+t1384931623
+s9186604
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CouchbaseLiteListener.a
+c00000000528C612700000000003EB66C
+t1384931623
+s4109932
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/JavaScriptCore.a
+c00000000528C61280000000000B72B2C
+t1384931624
+s12004140
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/libCBLJSViewCompiler.a
+c00000000528C6128000000000002A42C
+t1384931624
+s173100
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/nl.x-services.plugins.insomnia/Insomnia.m
+c0000000052AC776600000000000003DB
+t1387034470
+s987
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
+c0000000052F8C02B0000000000002161
+t1392033835
+s8545
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/de.lproj/Localizable.strings
+c0000000052849AEF00000000000004BF
+t1384422127
+s1215
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/en.lproj/Localizable.strings
+c0000000052849AEF00000000000004AA
+t1384422127
+s1194
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/es.lproj/Localizable.strings
+c0000000052849AEF00000000000004B7
+t1384422127
+s1207
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/icons/icon-72.png
+c00000000528C61280000000000001847
+t1384931624
+s6215
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/icons/icon-72@2x.png
+c00000000528C612800000000000035BC
+t1384931624
+s13756
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/icons/icon.png
+c00000000528C6128000000000000157C
+t1384931624
+s5500
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/icons/icon@2x.png
+c00000000528C61280000000000001EBD
+t1384931624
+s7869
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/se.lproj/Localizable.strings
+c0000000052849AEF00000000000004AB
+t1384422127
+s1195
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default-568h@2x~iphone.png
+c000000005285F96F00000000000085B1
+t1384511855
+s34225
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005285F96F0000000000012DF4
+t1384511855
+s77300
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default-Landscape~ipad.png
+c000000005284746B0000000000015018
+t1384412267
+s86040
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005285F96F0000000000012B02
+t1384511855
+s76546
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default-Portrait~ipad.png
+c000000005285F96F00000000000085E6
+t1384511855
+s34278
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default@2x~iphone.png
+c000000005285F96F0000000000007323
+t1384511855
+s29475
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default~iphone.png
+c000000005285F96F000000000000289A
+t1384511855
+s10394
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Info.plist
+c0000000052F8C0750000000000001279
+t1392033909
+s4729
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Prefix.pch
+c0000000052849AF000000000000003BD
+t1384422128
+s957
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/config.xml
+c0000000052F8C0780000000000000797
+t1392033912
+s1943
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/main.m
+c0000000052849AF00000000000000458
+t1384422128
+s1112
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app
+t1392033969
+s748
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app.dSYM
+t2
+s0
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default-568h@2x~iphone.png
+t1392033934
+s34225
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default-Landscape@2x~ipad.png
+t1392033934
+s77300
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default-Landscape~ipad.png
+t1392033934
+s86040
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default-Portrait@2x~ipad.png
+t1392033934
+s76546
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default-Portrait~ipad.png
+t1392033934
+s34278
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default@2x~iphone.png
+t1392033934
+s29475
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default~iphone.png
+t1392033934
+s10394
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Info.plist
+t1392033933
+s1758
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/MainViewController.nib
+t1392033954
+s1332
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/PkgInfo
+t2
+s0
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Winzer
+t1392033968
+s4603032
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/config.xml
+t1392033934
+s1943
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/de.lproj/Localizable.strings
+t1392033934
+s280
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/en.lproj/Localizable.strings
+t1392033934
+s166
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/es.lproj/Localizable.strings
+t1392033934
+s334
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/icon-72.png
+t1392033934
+s6215
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/icon-72@2x.png
+t1392033934
+s13756
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/icon.png
+t1392033934
+s5500
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/icon@2x.png
+t1392033934
+s7869
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/se.lproj/Localizable.strings
+t1392033934
+s283
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/AppDelegate.o
+t1392033956
+s77740
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CBLite.o
+t1392033956
+s49344
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CDVSplashScreen.o
+t1392033957
+s73088
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Insomnia.o
+t1392033957
+s60372
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/MainViewController.o
+t1392033956
+s53700
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Winzer.LinkFileList
+c0000000052F8C08D00000000000003B0
+t1392033933
+s944
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/main.o
+t1392033956
+s3136
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Script-304B58A110DAC018002A0835.sh
+c0000000052F8C08D000000000000051A
+t1392033933
+s1306
+
+N/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/libCordova.a
+c0000000052F8C08D00000000000E1508
+t1392033933
+s922888
+
+N/var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch.pch
+t1392033956
+s5363072
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa585e30df8a8b841^c1c7e40df8a8b841^-836"warning: no rule to process file '/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/libCBLJSViewCompiler.a' of type archive.ar for architecture i386warning: no rule to process file '/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CouchbaseLite.a' of type archive.ar for architecture i386warning: no rule to process file '/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CouchbaseLiteListener.a' of type archive.ar for architecture i386warning: no rule to process file '/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/JavaScriptCore.a' of type archive.ar for architecture i3864(21%IDEActivityLogMessage2@211"Warning: no rule to process file '/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/libCBLJSViewCompiler.a' of type archive.ar for architecture i386-413726733#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@204"Warning: no rule to process file '/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CouchbaseLite.a' of type archive.ar for architecture i386-413726733#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@212"Warning: no rule to process file '/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CouchbaseLiteListener.a' of type archive.ar for architecture i386-413726733#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@205"Warning: no rule to process file '/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/JavaScriptCore.a' of type archive.ar for architecture i386-413726733#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"74125470-0F85-474F-8764-05F466E5716A-
+
+CCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/AppDelegate.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413726756.168695
+e413726756.951257
+r1
+xCompileC
+xbuild/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/AppDelegate.o
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/AppDelegate.m
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/AppDelegate.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/AppDelegate.m193"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/AppDelegate.o Winzer/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6b642b24f8a8b841^b186f324f8a8b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/AppDelegate.m0000000000000000^4033"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/AppDelegate.o Winzer/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-generated-files.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-own-target-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-all-target-headers.hmap -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-project-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/usr/local/lib/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/UninstalledProducts/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources/i386 -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources -F/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -include /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch -MMD -MT dependencies -MF /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/AppDelegate.dia -c /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/AppDelegate.m -o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/AppDelegate.o36"C6ECB28D-86D3-4743-9730-09DF6B827D9C-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CBLite.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLite.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413726756.170171
+e413726756.950402
+r1
+xCompileC
+xbuild/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CBLite.o
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLite.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLite.m
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLite.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDV.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVURLProtocol.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVDebug.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVLocalStorage.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVTimer.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/NSData+Base64.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVJSON.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CouchbaseLite.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLManager.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLDatabase.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLView.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLDocument.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLRevision.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLAttachment.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLQuery.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLReplication.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLModel.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/MYDynamicObject.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLModelFactory.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLJSON.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLUITableSource.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLListener.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLRegisterJSViewCompiler.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Compile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLite.m211"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CBLite.o Winzer/Plugins/com.couchbase.lite.phonegap/CBLite.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler95b72b24f8a8b841^1973f324f8a8b841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLite.m0000000000000000^4059"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CBLite.o Winzer/Plugins/com.couchbase.lite.phonegap/CBLite.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-generated-files.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-own-target-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-all-target-headers.hmap -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-project-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/usr/local/lib/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/UninstalledProducts/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources/i386 -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources -F/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -include /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch -MMD -MT dependencies -MF /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CBLite.d --serialize-diagnostics /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CBLite.dia -c /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CBLite.m -o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CBLite.o36"E62368AF-0227-4007-973B-74174BDE8D71-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CDVSplashScreen.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413726756.952539
+e413726757.213966
+r1
+xCompileC
+xbuild/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CDVSplashScreen.o
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Compile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m233"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CDVSplashScreen.o Winzer/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler28f3f324f8a8b841^2ec83625f8a8b841^---0#0#1#-19%DVTDocumentLocation2@141"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m0000000000000000^4121"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CDVSplashScreen.o Winzer/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-generated-files.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-own-target-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-all-target-headers.hmap -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-project-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/usr/local/lib/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/UninstalledProducts/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources/i386 -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources -F/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -include /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch -MMD -MT dependencies -MF /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CDVSplashScreen.d --serialize-diagnostics /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CDVSplashScreen.dia -c /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/org.apache.cordova.splashscreen/CDVSplashScreen.m -o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CDVSplashScreen.o36"AF10EE9D-54D6-49A8-9DDD-14AEC1490C57-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Insomnia.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/nl.x-services.plugins.insomnia/Insomnia.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413726756.950885
+e413726757.051074
+r1
+xCompileC
+xbuild/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Insomnia.o
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/nl.x-services.plugins.insomnia/Insomnia.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/nl.x-services.plugins.insomnia/Insomnia.m
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/nl.x-services.plugins.insomnia/Insomnia.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDV.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVURLProtocol.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVDebug.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVLocalStorage.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVTimer.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/NSData+Base64.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/nl.x-services.plugins.insomnia/Insomnia.m218"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Insomnia.o Winzer/Plugins/nl.x-services.plugins.insomnia/Insomnia.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler079af324f8a8b841^cf150d25f8a8b841^---0#0#1#-19%DVTDocumentLocation2@133"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/nl.x-services.plugins.insomnia/Insomnia.m0000000000000000^4077"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Insomnia.o Winzer/Plugins/nl.x-services.plugins.insomnia/Insomnia.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-generated-files.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-own-target-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-all-target-headers.hmap -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-project-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/usr/local/lib/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/UninstalledProducts/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources/i386 -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources -F/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -include /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch -MMD -MT dependencies -MF /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Insomnia.d --serialize-diagnostics /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Insomnia.dia -c /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/nl.x-services.plugins.insomnia/Insomnia.m -o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Insomnia.o36"73FE7634-5D4E-4331-B1EB-35A98D14A047-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/MainViewController.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413726756.169136
+e413726756.952242
+r1
+xCompileC
+xbuild/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/MainViewController.o
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.m
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVViewController.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVAvailability.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVWhitelist.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVPlugin.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVPluginResult.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.m207"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/MainViewController.o Winzer/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf4862b24f8a8b841^00c6f324f8a8b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.m0000000000000000^4075"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/MainViewController.o Winzer/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-generated-files.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-own-target-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-all-target-headers.hmap -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-project-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/usr/local/lib/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/UninstalledProducts/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources/i386 -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources -F/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -include /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch -MMD -MT dependencies -MF /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/MainViewController.dia -c /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.m -o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/MainViewController.o36"F43232D2-E159-4E69-BFD3-1124A22CF4B0-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/main.o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413726756.168435
+e413726756.950382
+r1
+xCompileC
+xbuild/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/main.o
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/main.m171"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/main.o Winzer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerea3f2b24f8a8b841^6e4cf324f8a8b841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/main.m0000000000000000^3975"CompileC build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/main.o Winzer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-generated-files.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-own-target-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-all-target-headers.hmap -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-project-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/usr/local/lib/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/UninstalledProducts/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources/i386 -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources -F/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -include /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch -MMD -MT dependencies -MF /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/main.dia -c /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/main.m -o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/main.o36"74EE31F6-71D3-48E5-8EAC-5849353F4E71-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCompileXIB /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.xib
+s413726734.670876
+e413726754.641658
+r1
+xCompileXIB
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection117"Compiling /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.xib48"CompileXIB Winzer/Classes/MainViewController.xib8600ac0ef8a8b841^4146a422f8a8b841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.xib0000000000000000^965"CompileXIB Winzer/Classes/MainViewController.xib    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv XCODE_DEVELOPER_USR_PATH /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin/..    /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/MainViewController.nib /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Classes/MainViewController.xib36"EDE10F54-D1D2-4C03-93CB-AA8B3F7DE8EB-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCopyStringsFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/de.lproj/Localizable.strings Winzer/Resources/de.lproj/Localizable.strings
+s413726734.671636
+e413726734.674513
+r1
+xCopyStringsFile
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/de.lproj/Localizable.strings
+xWinzer/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Winzer/Resources/de.lproj/Localizable.strings107"CopyStringsFile build/Winzer.app/de.lproj/Localizable.strings Winzer/Resources/de.lproj/Localizable.strings2921ac0ef8a8b841^419fac0ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/de.lproj/Localizable.strings0000000000000000^700"CopyStringsFile build/Winzer.app/de.lproj/Localizable.strings Winzer/Resources/de.lproj/Localizable.strings    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/de.lproj -- Winzer/Resources/de.lproj/Localizable.strings36"BA2E4CC6-50B6-4C3D-87ED-481BDAF5D930-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCopyStringsFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/en.lproj/Localizable.strings Winzer/Resources/en.lproj/Localizable.strings
+s413726734.650390
+e413726734.671297
+r1
+xCopyStringsFile
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/en.lproj/Localizable.strings
+xWinzer/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Winzer/Resources/en.lproj/Localizable.strings107"CopyStringsFile build/Winzer.app/en.lproj/Localizable.strings Winzer/Resources/en.lproj/Localizable.strings569ca60ef8a8b841^7fdbab0ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/en.lproj/Localizable.strings0000000000000000^700"CopyStringsFile build/Winzer.app/en.lproj/Localizable.strings Winzer/Resources/en.lproj/Localizable.strings    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/en.lproj -- Winzer/Resources/en.lproj/Localizable.strings36"B24D147A-3EAD-4DE2-8B5E-CA45756EB94B-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCopyStringsFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/es.lproj/Localizable.strings Winzer/Resources/es.lproj/Localizable.strings
+s413726734.670377
+e413726734.673743
+r1
+xCopyStringsFile
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/es.lproj/Localizable.strings
+xWinzer/Resources/es.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Winzer/Resources/es.lproj/Localizable.strings107"CopyStringsFile build/Winzer.app/es.lproj/Localizable.strings Winzer/Resources/es.lproj/Localizable.stringse8deab0ef8a8b841^ab7bac0ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/es.lproj/Localizable.strings0000000000000000^700"CopyStringsFile build/Winzer.app/es.lproj/Localizable.strings Winzer/Resources/es.lproj/Localizable.strings    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/es.lproj -- Winzer/Resources/es.lproj/Localizable.strings36"CB590CEF-D214-4988-B626-2088E6331BCB-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCopyStringsFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/se.lproj/Localizable.strings Winzer/Resources/se.lproj/Localizable.strings
+s413726734.672454
+e413726734.674854
+r1
+xCopyStringsFile
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/se.lproj/Localizable.strings
+xWinzer/Resources/se.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy Winzer/Resources/se.lproj/Localizable.strings107"CopyStringsFile build/Winzer.app/se.lproj/Localizable.strings Winzer/Resources/se.lproj/Localizable.strings7f4bac0ef8a8b841^c5c6ac0ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/se.lproj/Localizable.strings0000000000000000^700"CopyStringsFile build/Winzer.app/se.lproj/Localizable.strings Winzer/Resources/se.lproj/Localizable.strings    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/se.lproj -- Winzer/Resources/se.lproj/Localizable.strings36"BE213276-834D-48D5-AD93-6383FADD02EC-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/Resources/icons/icon-72.png build/Winzer.app/icon-72.png
+s413726734.648766
+e413726734.669756
+r1
+xCpResource
+xWinzer/Resources/icons/icon-72.png
+xbuild/Winzer.app/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy build/Winzer.app/icon-72.png74"CpResource Winzer/Resources/icons/icon-72.png build/Winzer.app/icon-72.pngf835a60ef8a8b841^2e76ab0ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/icon-72.png0034601fdcffdf42^736"CpResource Winzer/Resources/icons/icon-72.png build/Winzer.app/icon-72.png    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/icons/icon-72.png /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"AE2D3FEF-CC49-4BCF-915D-B863A9BD3ACC-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/Resources/icons/icon-72@2x.png build/Winzer.app/icon-72@2x.png
+s413726734.733660
+e413726734.792174
+r1
+xCpResource
+xWinzer/Resources/icons/icon-72@2x.png
+xbuild/Winzer.app/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/Winzer.app/icon-72@2x.png80"CpResource Winzer/Resources/icons/icon-72@2x.png build/Winzer.app/icon-72@2x.pngfdf8bb0ef8a8b841^3acdca0ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/icon-72@2x.png0034601fdcffdf42^745"CpResource Winzer/Resources/icons/icon-72@2x.png build/Winzer.app/icon-72@2x.png    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/icons/icon-72@2x.png /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"E3B7CFA9-4551-48EA-BE3B-35493E4CAC43-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/Resources/icons/icon.png build/Winzer.app/icon.png
+s413726734.648985
+e413726734.669855
+r1
+xCpResource
+xWinzer/Resources/icons/icon.png
+xbuild/Winzer.app/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Copy build/Winzer.app/icon.png68"CpResource Winzer/Resources/icons/icon.png build/Winzer.app/icon.pngf33aa60ef8a8b841^bcb2ab0ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/icon.png0034601fdcffdf42^727"CpResource Winzer/Resources/icons/icon.png build/Winzer.app/icon.png    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/icons/icon.png /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"A3F679EE-62CC-4FC1-BC34-648A4276DC00-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/Resources/icons/icon@2x.png build/Winzer.app/icon@2x.png
+s413726734.649487
+e413726734.669782
+r1
+xCpResource
+xWinzer/Resources/icons/icon@2x.png
+xbuild/Winzer.app/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy build/Winzer.app/icon@2x.png74"CpResource Winzer/Resources/icons/icon@2x.png build/Winzer.app/icon@2x.pngda57a60ef8a8b841^1c95ab0ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/icon@2x.png0034601fdcffdf42^736"CpResource Winzer/Resources/icons/icon@2x.png build/Winzer.app/icon@2x.png    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/icons/icon@2x.png /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"C0201609-E803-45CA-BAF4-495F597980BA-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/Resources/splash/Default-568h@2x~iphone.png build/Winzer.app/Default-568h@2x~iphone.png
+s413726734.733478
+e413726734.815457
+r1
+xCpResource
+xWinzer/Resources/splash/Default-568h@2x~iphone.png
+xbuild/Winzer.app/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/Winzer.app/Default-568h@2x~iphone.png105"CpResource Winzer/Resources/splash/Default-568h@2x~iphone.png build/Winzer.app/Default-568h@2x~iphone.pnge1efbb0ef8a8b841^05c4d00ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default-568h@2x~iphone.png0034601fdcffdf42^783"CpResource Winzer/Resources/splash/Default-568h@2x~iphone.png build/Winzer.app/Default-568h@2x~iphone.png    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default-568h@2x~iphone.png /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"0E8017B7-1E04-4E46-B390-89D743619944-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/Resources/splash/Default-Landscape@2x~ipad.png build/Winzer.app/Default-Landscape@2x~ipad.png
+s413726734.674228
+e413726734.715318
+r1
+xCpResource
+xWinzer/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/Winzer.app/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/Winzer.app/Default-Landscape@2x~ipad.png111"CpResource Winzer/Resources/splash/Default-Landscape@2x~ipad.png build/Winzer.app/Default-Landscape@2x~ipad.pnge9d5ac0ef8a8b841^fb20b70ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default-Landscape@2x~ipad.png0034601fdcffdf42^792"CpResource Winzer/Resources/splash/Default-Landscape@2x~ipad.png build/Winzer.app/Default-Landscape@2x~ipad.png    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default-Landscape@2x~ipad.png /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"240632A5-8668-4A4A-9782-00EA0507FE65-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/Resources/splash/Default-Landscape~ipad.png build/Winzer.app/Default-Landscape~ipad.png
+s413726734.674791
+e413726734.715652
+r1
+xCpResource
+xWinzer/Resources/splash/Default-Landscape~ipad.png
+xbuild/Winzer.app/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy build/Winzer.app/Default-Landscape~ipad.png105"CpResource Winzer/Resources/splash/Default-Landscape~ipad.png build/Winzer.app/Default-Landscape~ipad.png50e1ac0ef8a8b841^0839b70ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@120"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default-Landscape~ipad.png0034601fdcffdf42^783"CpResource Winzer/Resources/splash/Default-Landscape~ipad.png build/Winzer.app/Default-Landscape~ipad.png    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default-Landscape~ipad.png /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"6F33BA20-E88B-4F44-A39A-D15A8D390615-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/Resources/splash/Default-Portrait@2x~ipad.png build/Winzer.app/Default-Portrait@2x~ipad.png
+s413726734.675233
+e413726734.716093
+r1
+xCpResource
+xWinzer/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/Winzer.app/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/Winzer.app/Default-Portrait@2x~ipad.png109"CpResource Winzer/Resources/splash/Default-Portrait@2x~ipad.png build/Winzer.app/Default-Portrait@2x~ipad.pnge7fcac0ef8a8b841^9752b70ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default-Portrait@2x~ipad.png0034601fdcffdf42^789"CpResource Winzer/Resources/splash/Default-Portrait@2x~ipad.png build/Winzer.app/Default-Portrait@2x~ipad.png    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default-Portrait@2x~ipad.png /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"CC4289EF-7DE8-4D89-8B6A-C57E921AC95D-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/Resources/splash/Default-Portrait~ipad.png build/Winzer.app/Default-Portrait~ipad.png
+s413726734.715794
+e413726734.733057
+r1
+xCpResource
+xWinzer/Resources/splash/Default-Portrait~ipad.png
+xbuild/Winzer.app/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Winzer.app/Default-Portrait~ipad.png103"CpResource Winzer/Resources/splash/Default-Portrait~ipad.png build/Winzer.app/Default-Portrait~ipad.png0284b70ef8a8b841^ebabbb0ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@119"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default-Portrait~ipad.png0034601fdcffdf42^780"CpResource Winzer/Resources/splash/Default-Portrait~ipad.png build/Winzer.app/Default-Portrait~ipad.png    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default-Portrait~ipad.png /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"DD72D0B5-029F-4208-93FF-33E8E1124618-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/Resources/splash/Default@2x~iphone.png build/Winzer.app/Default@2x~iphone.png
+s413726734.716194
+e413726734.733064
+r1
+xCpResource
+xWinzer/Resources/splash/Default@2x~iphone.png
+xbuild/Winzer.app/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/Winzer.app/Default@2x~iphone.png95"CpResource Winzer/Resources/splash/Default@2x~iphone.png build/Winzer.app/Default@2x~iphone.png8884b70ef8a8b841^28b9bb0ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default@2x~iphone.png0034601fdcffdf42^768"CpResource Winzer/Resources/splash/Default@2x~iphone.png build/Winzer.app/Default@2x~iphone.png    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default@2x~iphone.png /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"5CF67970-BC6D-4787-B9EB-DDB4410FDD6F-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/Resources/splash/Default~iphone.png build/Winzer.app/Default~iphone.png
+s413726734.716792
+e413726734.750269
+r1
+xCpResource
+xWinzer/Resources/splash/Default~iphone.png
+xbuild/Winzer.app/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/Winzer.app/Default~iphone.png89"CpResource Winzer/Resources/splash/Default~iphone.png build/Winzer.app/Default~iphone.png08adb70ef8a8b841^1213c00ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Default~iphone.png0034601fdcffdf42^759"CpResource Winzer/Resources/splash/Default~iphone.png build/Winzer.app/Default~iphone.png    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Resources/splash/Default~iphone.png /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"62C7C022-F257-4E66-9496-85E39470419F-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CCpResource Winzer/config.xml build/Winzer.app/config.xml
+s413726734.648664
+e413726734.650137
+r1
+xCpResource
+xWinzer/config.xml
+xbuild/Winzer.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy build/Winzer.app/config.xml56"CpResource Winzer/config.xml build/Winzer.app/config.xml5724a60ef8a8b841^0c73a60ef8a8b841^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/config.xml0034601fdcffdf42^701"CpResource Winzer/config.xml build/Winzer.app/config.xml    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/config.xml /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"1CF465E5-7873-4C14-BB5E-7C8A28629E00-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CGenerateDSYMFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app.dSYM /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Winzer
+s413726770.035334
+e413726772.741295
+r1
+xGenerateDSYMFile
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app.dSYM
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Winzer
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generate /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app.dSYM62"GenerateDSYMFile build/Winzer.app.dSYM build/Winzer.app/Winzerb3270932f8a8b841^21ccbd34f8a8b841^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app.dSYM0034601fdcffdf42^727"GenerateDSYMFile build/Winzer.app.dSYM build/Winzer.app/Winzer    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Winzer -o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app.dSYM36"0C827AB7-B6F1-4D26-8B19-B30852175054-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CLd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Winzer normal i386
+s413726757.267537
+e413726770.000850
+r1
+xLd
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Winzer
+xnormal
+xi386
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Winzer.LinkFileList
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/libCordova.a
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/main.o
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/AppDelegate.o
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/MainViewController.o
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CBLite.o
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Insomnia.o
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/CDVSplashScreen.o
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/libCBLJSViewCompiler.a
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CouchbaseLite.a
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CouchbaseLiteListener.a
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/JavaScriptCore.a
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libsqlite3.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libstdc++.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libicucore.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libz.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphonesimulator.a
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libc++abi.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libdyld.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+d/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Winzer38"Ld build/Winzer.app/Winzer normal i386a4a74425f8a8b841^09380032f8a8b841^---0#0#1#--3150"Ld build/Winzer.app/Winzer normal i386    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -L/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap -L/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap -L/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap -L/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap -F/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -filelist /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Winzer.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework CoreLocation -framework ImageIO -framework OpenAL -framework AssetsLibrary /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -framework CoreLocation -lCBLJSViewCompiler /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CouchbaseLite.a /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/CouchbaseLiteListener.a /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap/JavaScriptCore.a -lsqlite3 -lstdc++ -licucore -lz -framework Security -Xlinker -dependency_info -Xlinker /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Winzer_dependency_info.dat -o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Winzer36"4CE2BFEF-AEE9-4792-BE8D-91D7C65C5950-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CPhaseScriptExecution Copy\ www\ directory /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Script-304B58A110DAC018002A0835.sh
+s413726733.902738
+e413726734.648094
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.725s
+ouser	0m0.218s
+osys	0m0.331s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'130"PhaseScriptExecution Copy\ www\ directory build/Winzer.build/Debug-iphonesimulator/Winzer.build/Script-304B58A110DAC018002A0835.shb518e80df8a8b841^5ef4a50ef8a8b841^-42"real	0m0.725suser	0m0.218ssys	0m0.331s3(21%IDEActivityLogMessage2@14"real	0m0.725s-413726734#1#14#-0#-----2@14"user	0m0.218s-413726734#15#14#-0#-----2@13"sys	0m0.331s-413726734#29#13#-0#-----0#0#1#--24235"PhaseScriptExecution Copy\ www\ directory build/Winzer.build/Debug-iphonesimulator/Winzer.build/Script-304B58A110DAC018002A0835.sh    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER nileshmaheshwari    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD i386    setenv ARCHS_STANDARD_32_64_BIT i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_STANDARD_64_BIT x86_64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "i386 x86_64"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build    setenv BUILD_ROOT /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build    setenv CACHE_ROOT /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app    setenv CODE_SIGNING_ALLOWED NO    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneSimulatorCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer: Nishant Mahajan (8RL7B7M3X7)"    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Winzer.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/nileshmaheshwari/Documents/CordovaLib    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Winzer.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Winzer.dst    setenv DT_TOOLCHAIN_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Winzer.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Winzer.app/Executables    setenv EXECUTABLE_FOLDER_PATH Winzer.app    setenv EXECUTABLE_NAME Winzer    setenv EXECUTABLE_PATH Winzer.app/Winzer    setenv FILE_LIST /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Winzer.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Winzer.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Winzer/Winzer-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include \"/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/usr/local/lib/include\" \"/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/UninstalledProducts/include\" \"/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Winzer/Winzer-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Winzer.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Winzer.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Winzer.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER nileshmaheshwari    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Winzer.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Winzer.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Winzer_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build  \"/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap\" \"/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap\" \"/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap\" \"/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Plugins/com.couchbase.lite.phonegap\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal/i386/Winzer.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Winzer.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 13A603    setenv MAC_OS_X_VERSION_ACTUAL 1090    setenv MAC_OS_X_VERSION_MAJOR 1090    setenv MAC_OS_X_VERSION_MINOR 0900    setenv MODULE_CACHE_DIR /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Objects-normal    setenv OBJROOT /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/local/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Tools:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Headers /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/SDKs /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Winzer.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/PkgInfo    setenv PKGINFO_PATH Winzer.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 70000    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Winzer.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Winzer.app/PrivateHeaders    setenv PRODUCT_NAME Winzer    setenv PRODUCT_SETTINGS_PATH /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Winzer    setenv PROJECT_DERIVED_FILE_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/DerivedSources    setenv PROJECT_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PROJECT_FILE_PATH /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer.xcodeproj    setenv PROJECT_NAME Winzer    setenv PROJECT_TEMP_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build    setenv PROJECT_TEMP_ROOT /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build    setenv PROVISIONING_PROFILE 2BA58F57-1EA3-49B2-B6BB-B61167703E0A    setenv PUBLIC_HEADERS_FOLDER_PATH Winzer.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Winzer.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk    setenv SDK_NAME iphonesimulator7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Winzer.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Winzer.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv SRCROOT /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Winzer    setenv TARGET_BUILD_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build    setenv TARGET_NAME Winzer    setenv TARGET_TEMP_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build    setenv TEMP_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build    setenv TEMP_FILES_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build    setenv TEMP_FILE_DIR /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build    setenv TEMP_ROOT /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Winzer.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER nileshmaheshwari    setenv USER_APPS_DIR /Users/nileshmaheshwari/Applications    setenv USER_LIBRARY_DIR /Users/nileshmaheshwari/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Winzer.app/version.plist    setenv VERSION_INFO_BUILDER nileshmaheshwari    setenv VERSION_INFO_FILE Winzer_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Winzer  PROJECT:Winzer-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Winzer.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH Winzer.app/XPCServices    setenv YACC yacc    setenv arch i386    setenv variant normal    /bin/sh -c /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Script-304B58A110DAC018002A0835.sh36"D68DBF4C-508E-4BEC-8A8C-802451D2D160-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CProcessInfoPlistFile /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Info.plist /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Info.plist
+s413726733.896448
+e413726733.899603
+r1
+xProcessInfoPlistFile
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Info.plist
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Process /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Info.plist73"ProcessInfoPlistFile build/Winzer.app/Info.plist Winzer/Winzer-Info.plist529ae50df8a8b841^e44de60df8a8b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Info.plist0000000000000000^825"ProcessInfoPlistFile build/Winzer.app/Info.plist Winzer/Winzer-Info.plist    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    builtin-infoPlistUtility /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Info.plist -genpkginfo /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app/Info.plist36"AB84873E-2DDA-4225-A667-3F85B079AF9F-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CProcessPCH /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch.pch Winzer/Winzer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413726754.643077
+e413726756.167615
+r1
+xProcessPCH
+x/var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch.pch
+xWinzer/Winzer-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Winzer/Winzer-Prefix.pch286"ProcessPCH /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch.pch Winzer/Winzer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfdc1a422f8a8b841^d5eb2a24f8a8b841^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Prefix.pch0000000000000000^4012"ProcessPCH /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch.pch Winzer/Winzer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wno-bool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-generated-files.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-own-target-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-all-target-headers.hmap -iquote /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/Winzer-project-headers.hmap -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/usr/local/lib/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/UninstalledProducts/include -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources/i386 -I/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.build/Debug-iphonesimulator/Winzer.build/DerivedSources -F/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build --serialize-diagnostics /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch.d -c /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/Winzer/Winzer-Prefix.pch -o /var/folders/4c/3fn0jv7x1j9b3srs54g_vpnr0000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/Winzer-Prefix-euhchuiizaamxagnlpfsetzgnlkb/Winzer-Prefix.pch.pch36"71248BD3-FB7E-4CF1-B61D-E4F9DB0B3772-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
+CTouch /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app
+s413726772.742743
+e413726772.866764
+r1
+xTouch
+x/Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app22"Touch build/Winzer.appd236be34f8a8b841^75e7dd34f8a8b841^---0#0#1#--489"Touch build/Winzer.app    cd /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios    setenv PATH "/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Users/nileshmaheshwari/Desktop/Xcode.app/Contents/Developer/usr/bin:/Users/nileshmaheshwari/SC2Hybrid:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin"    /usr/bin/touch -c /Users/nileshmaheshwari/emorph2013/Winzer/github/winzer/platforms/ios/build/Winzer.app36"F81E4DA8-D4BD-47C7-AFF8-DF9D1214E80A-
+bBDA7347C-1B96-4400-824A-AA7C9DBC9C5D
+
